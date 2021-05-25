@@ -1,0 +1,56 @@
+#rush2-wrapper {
+  background-color: black;
+}
+
+#rush2-mobile-nav {
+  @include mobilenav;
+  background-color: $silver-sand;
+  a {
+    color: black;
+  }
+}
+
+#rush2-nav {
+  @include nav;
+  background-color: black;
+  a {
+    color: $silver-sand;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#rush2-header {
+  @include artist-header;
+  color: $silver-sand;
+}
+
+#rush2-content {
+  @include content;
+  color: $silver-sand;
+}
+
+.neil-gallery {
+  color: $silver-sand;
+  padding: 3em 2em 5em 2em;
+  height: auto;
+  width: 100%;
+  h2 {
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: .12em;
+    line-height: 1.3em;
+  }
+  .neil1 {
+    @include neil-images2;
+  }
+  .neil2 {
+    @include neil-images;
+  }
+  .neil3 {
+    @include neil-images2;
+  }
+  .neil4 {
+    @include neil-images;
+  }
+}

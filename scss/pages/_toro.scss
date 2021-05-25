@@ -1,0 +1,32 @@
+#toro-wrapper {
+  background-color: $rich-black;
+}
+
+#toro-mobile-nav {
+  @include mobilenav;
+  background-color: $cardinal;
+  a {
+    color: $rich-black;
+  }
+}
+
+#toro-nav {
+  @include nav;
+  background-color: $rich-black;
+  a {
+    color: $cardinal;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#toro-header {
+  @include artist-header;
+  color: $cardinal;
+}
+
+#toro-content {
+  @include content;
+  color: $cardinal;
+}

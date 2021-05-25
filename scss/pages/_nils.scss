@@ -1,0 +1,32 @@
+#nils-wrapper {
+  background-color: $dark-sienna;
+}
+
+#nils-mobile-nav {
+  @include mobilenav;
+  background-color: $green-sheen;
+  a {
+    color: $dark-sienna;
+  }
+}
+
+#nils-nav {
+  @include nav;
+  background-color: $dark-sienna;
+  a {
+    color: $green-sheen;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#nils-header {
+  @include artist-header;
+  color: $green-sheen;
+}
+
+#nils-content {
+  @include content;
+  color: $green-sheen;
+}

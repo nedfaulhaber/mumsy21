@@ -1,0 +1,35 @@
+#snares-wrapper {
+  background-color: $steel-blue;
+}
+
+#snares-mobile-nav {
+  @include mobilenav;
+  background-color: white;
+  a {
+    color: $steel-blue;
+  }
+}
+
+#snares-nav {
+  @include nav;
+  background-color: $steel-blue;
+  a {
+    color: white;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#snares-header {
+  @include artist-header;
+  color: white;
+  .song {
+    @include long-song;
+  }
+}
+
+#snares-content {
+  @include content;
+  color: white;
+}

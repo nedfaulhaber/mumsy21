@@ -1,0 +1,32 @@
+#yvette-wrapper {
+  background-color: $rose-ebony;
+}
+
+#yvette-mobile-nav {
+  @include mobilenav;
+  background-color: $soap;
+  a {
+    color: $rose-ebony;
+  }
+}
+
+#yvette-nav {
+  @include nav;
+  background-color: $rose-ebony;
+  a {
+    color: $soap;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#yvette-header {
+  @include artist-header;
+  color: $soap;
+}
+
+#yvette-content {
+  @include content;
+  color: $soap;
+}

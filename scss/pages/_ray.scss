@@ -1,0 +1,32 @@
+#ray-wrapper {
+  background-color: $wine;
+}
+
+#ray-mobile-nav {
+  @include mobilenav;
+  background-color: $black-shadows;
+  a {
+    color: wine;
+  }
+}
+
+#ray-nav {
+  @include nav;
+  background-color: $wine;
+  a {
+    color: $black-shadows;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#ray-header {
+  @include artist-header;
+  color: $black-shadows;
+}
+
+#ray-content {
+  @include content;
+  color: $black-shadows;
+}

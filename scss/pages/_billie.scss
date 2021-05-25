@@ -1,0 +1,38 @@
+#billie-wrapper {
+  background-color: $pansy-purple;
+}
+
+#billie-mobile-nav {
+  @include mobilenav;
+  background-color: $silver;
+  a {
+    color: $pansy-purple;
+  }
+}
+
+#billie-nav {
+  @include nav;
+  background-color: $pansy-purple;
+  a {
+    color: $silver;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#billie-header {
+  @include artist-header;
+  color: $silver;
+}
+
+#billie-content {
+  @include content;
+  color: $silver;
+  a {
+    color: $teal-blue;
+    &:hover {
+      color: black;
+    }
+  }
+}

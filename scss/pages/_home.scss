@@ -1,0 +1,321 @@
+body {
+  background-color: black;
+}
+
+#wrapper {
+  background-color: $phthalo-green;
+  padding-bottom: 10em;
+}
+
+.sidenav {
+  @include mobilenav;
+  background-color: $boysenberry;
+  a {
+    color: $isabelline;
+  }
+}
+
+#home-nav {
+  @include nav;
+  background-color: $phthalo-green;
+  a {
+    color: $isabelline;
+    text-shadow: 2px 2px 2px $russian-violet;
+    &:hover {
+      color: $boysenberry;
+    }
+  }
+}
+
+.header {
+  color: $isabelline;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 0 14em 0 14em;
+  h1 {
+    margin-bottom: .6em;
+    font-family: 'Odibee Sans', cursive;
+    text-shadow: 2px 2px 2px $russian-violet;
+    font-weight: 300;
+    font-size: 4.3em;
+  }
+  a {
+    color: $boysenberry;
+    text-decoration: none;
+    font-weight: bold;
+    &:hover {
+      color: black;
+    }
+  }
+  @media screen and (max-width: 525px) {
+    padding: 1em 2em 0;
+    font-size: 1.2em;
+  }
+  .hamburger {
+    align-self: flex-start;
+    color: white;
+    margin: 1em .7em 2em;
+    font-size: 3em;
+    cursor: pointer;
+    @media screen and (min-width: 525px) {
+      display: none;
+      height: 0;
+      width: 0;
+    }
+  }
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4em;
+  .row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    @media only screen and (max-width: 625px) {
+      flex-direction: column;
+      align-items: center;
+    }
+    .image {
+      a {
+        text-decoration: none;
+      }
+      background-color: $rich-black;
+      height: 20em;
+      width: 22em;
+      @media screen and (max-width: 1023px) {
+        width: 27em;
+      }
+      @media screen and (min-width: 2300px) {
+        width: 25em;
+      }
+      @media screen and (max-width: 1022px) {
+        width: 23em;
+      }
+      @media only screen and (max-width: 625px) {
+        width: 75%;
+      }
+      @media only screen and (max-width: 1029px) {
+        a {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+        }
+      }
+      border: .063em solid white;
+      p {
+        padding: 0 3em 2em 0;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 300;
+        text-shadow: 0 0 1px black;
+        color: white;
+
+        @media screen and (min-width: 1030px) {
+          padding: 0;
+          opacity: 0;
+          color: white;
+          transition: .2s;
+          text-shadow: 0 0 1px black;
+          position: relative;
+          z-index: 2;
+          text-transform: uppercase;
+          margin: 0;
+          text-align: center;
+          line-height: 20em;
+          &:hover {
+            opacity: 1;
+          }
+          &:after, &:before {
+            z-index: -1;
+            transition: .2s;
+            content: "";
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+          }
+        }
+      }
+    }
+    #neil1 {
+      background-image: url('../img/neil79.png');
+      background-position: 0% 10%;
+      background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 10%;
+      }
+    }
+    #venetian {
+      background-image: url('../img/venetian.png');
+      background-position: center;
+      background-size: cover;
+    }
+    #kim {
+      background-image: url('../img/kimmy.png');
+      background-position: 0% 0%;
+      background-size: cover;
+      @media screen and (max-width: 1029px) {
+        p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+        }
+      }
+      @media screen and (max-width: 525px) {
+        background-position: 0% 8%;
+      }
+    }
+    #ray {
+      background-image: url('../img/ray-acid.png');
+      background-position: center;
+      background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 25%;
+      }
+    }
+    #khalid {
+      background-image: url('../img/khalid-smile.png');
+      background-position: 0 10%;
+      background-size: cover;
+      @media screen and (max-width: 1029px) {
+        p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+        }
+      }
+      @media screen and (max-width: 525px) {
+        background-position: 10% 0%;
+      }
+    }
+    #maren {
+      background-image: url('../img/maren.png');
+      background-position: 0% 0%;
+      background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 8%;
+        p {
+          padding-right: 1em;
+        }
+      }
+    }
+    #yvette {
+      background-image: url('../img/yvette.png');
+      background-position: center;
+      background-size: cover;
+      @media screen and (max-width: 1029px) {
+        p {
+          text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
+        }
+      }
+      @media screen and (max-width: 525px) {
+        background-position: 0% 20%;
+      }
+    }
+    #billie {
+      background-image: url('../img/billie-eilish.png');
+      background-position: center;
+      background-size: cover;
+      @media screen and (max-width: 1029px) {
+        p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+        }
+      }
+      @media screen and (max-width: 525px) {
+        background-position: 0% 10%;
+      }
+    }
+    #trane {
+      background-image: url('../img/trane_1963.png');
+      background-position: center;
+      background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 35%;
+      }
+    }
+    #lana {
+      background-image: url('../img/lana-pose.png');
+      background-position: 0% 0%;
+      background-size: cover;
+
+      @media screen and (max-width: 1029px) {
+        p {
+          padding-right: .4em;
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+        }
+      }
+      @media screen and (max-width: 525px) {
+        background-position: 0% 10%;
+      }
+    }
+    #toro {
+      background-image: url('../img/toro.png');
+      background-position: 0% 10%;
+      background-size: cover;
+      @media screen and (max-width: 1029px) {
+        p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+        }
+      }
+    }
+    #twigs {
+      background-image: url('../img/twigs.png');
+      background-position: center;
+      background-size: cover;
+      @media screen and (max-width: 1029px) {
+        p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+        }
+      }
+      @media screen and (max-width: 525px) {
+        background-position: 0% 70%;
+      }
+    }
+    #juice {
+      background-image: url('../img/juice.png');
+      background-position: 42%;
+      background-size: cover;
+      @media screen and (max-width: 1029px) {
+        p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+        }
+      }
+      @media screen and (max-width: 525px) {
+        background-position: 0% 15%;
+        p {
+          padding-right: 1em;
+        }
+      }
+    }
+    #nils {
+      background-image: url('../img/nils.png');
+      background-position: center;
+      background-size: cover;
+      @media screen and (max-width: 1029px) {
+        p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+        }
+      }
+      @media screen and (max-width: 525px) {
+        background-position: 0% 15%;
+      }
+    }
+    #neil2 {
+      background-image: url('../img/neil-84.png');
+      background-position: center;
+      background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 75%;
+      }
+    }
+  }
+}

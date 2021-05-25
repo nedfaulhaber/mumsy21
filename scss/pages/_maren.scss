@@ -1,0 +1,32 @@
+#maren-wrapper {
+  background-color: $jet;
+}
+
+#maren-mobile-nav {
+  @include mobilenav;
+  background-color: $pewter-blue;
+  a {
+    color: $jet;
+  }
+}
+
+#maren-nav {
+  @include nav;
+  background-color: $jet;
+  a {
+    color: $pewter-blue;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#maren-header {
+  @include artist-header;
+  color: $pewter-blue;
+}
+
+#maren-content {
+  @include content;
+  color: $pewter-blue;
+}

@@ -1,0 +1,38 @@
+#khalid-wrapper {
+  background-color: $space-cadet;
+}
+
+#khalid-mobile-nav {
+  @include mobilenav;
+  background-color: $anti-flash-white;
+  a {
+    color: $space-cadet;
+  }
+}
+
+#khalid-nav {
+  @include nav;
+  background-color: $space-cadet;
+  a {
+    color: $anti-flash-white;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#khalid-header {
+  @include artist-header;
+  color: $anti-flash-white;
+}
+
+#khalid-content {
+  @include content;
+  color: $anti-flash-white;
+  a {
+    color: $teal-blue;
+    &:hover {
+      color: black;
+    }
+  }
+}

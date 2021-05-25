@@ -1,0 +1,32 @@
+#twigs-wrapper {
+  background-color: black;
+}
+
+#twigs-mobile-nav {
+  @include mobilenav;
+  background-color: $iguana-green;
+  a {
+    color: black;
+  }
+}
+
+#twigs-nav {
+  @include nav;
+  background-color: black;
+  a {
+    color: $iguana-green;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#twigs-header {
+  @include artist-header;
+  color: $iguana-green;
+}
+
+#twigs-content {
+  @include content;
+  color: $iguana-green;
+}

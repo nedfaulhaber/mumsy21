@@ -1,0 +1,38 @@
+#juice-wrapper {
+  background-color: $pictorial-carmine;
+}
+
+#juice-mobile-nav {
+  @include mobilenav;
+  background-color: $melon;
+  a {
+    color: $pictorial-carmine;
+  }
+}
+
+#juice-nav {
+  @include nav;
+  background-color: $pictorial-carmine;
+  a {
+    color: $melon;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#juice-header {
+  @include artist-header;
+  color: $melon;
+}
+
+#juice-content {
+  @include content;
+  color: $melon;
+  a {
+    color: $maastricht-blue;
+    &:hover {
+      color: $steel-blue;
+    }
+  }
+}

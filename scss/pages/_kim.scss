@@ -1,0 +1,32 @@
+#kim-wrapper {
+  background-color: $raspberry-glace;
+}
+
+#kim-mobile-nav {
+  @include mobilenav;
+  background-color: $pale-lavender;
+  a {
+    color: $raspberry-glace;
+  }
+}
+
+#kim-nav {
+  @include nav;
+  background-color: $raspberry-glace;
+  a {
+    color: $pale-lavender;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#kim-header {
+  @include artist-header;
+  color: $pale-lavender;
+}
+
+#kim-content {
+  @include content;
+  color: $pale-lavender;
+}
