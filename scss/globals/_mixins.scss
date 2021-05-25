@@ -1,0 +1,263 @@
+//Mixins//
+
+@mixin font-face($family, $file) {
+  @font-face {
+    font-family: $family;
+    src: url("../fonts/#{$file}.ttf");
+  }
+}
+
+@mixin mobilenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 3.75em;
+  a {
+    padding: 1em .5em .5em 2em;
+    text-decoration: none;
+    font-size: 28px;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Obibee Sans', cursive;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 3.125em;
+  }
+  .closebtn {
+    font-size: 4em;
+    padding-left: .75em;
+  }
+}
+
+@mixin nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 0 0 1em 0;
+  padding: 3em 3em 0;
+  a {
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: .1em;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 524px) {
+  display: none;
+  height: 0;
+  width: 0;
+  }
+}
+
+@mixin artist-header {
+  margin: $a-header;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+  @media screen and (max-width: 525px) {
+    margin-top: 0;
+  }
+  @include artist;
+  .song {
+    @include song;
+  }
+  .hamburger {
+    align-self: flex-start;
+    color: white;
+    margin: 1em .7em 2em;
+    font-size: 3em;
+    cursor: pointer;
+    @media screen and (min-width: 525px) {
+      display: none;
+      height: 0;
+      width: 0;
+    }
+  }
+}
+
+@mixin artist {
+  h2 {
+    font-family: 'Odibee Sans', cursive;
+    font-weight: 600;
+    margin-bottom: .2em;
+  }
+}
+
+
+@mixin song {
+  font-family: 'Odibee Sans', cursive;
+  margin-bottom: .2em;
+  font-size: 1.75em;
+  span {
+    font-weight: 300;
+    font-size: .6em;
+    em {
+      font-style: italic;
+    }
+  }
+}
+
+@mixin long-song {
+  line-height: 1.2em;
+  @media screen and (max-width: 850px) {
+    margin-right: 2em;
+  }
+  @media screen and (max-width: 600px) {
+    text-align: center;
+    margin: 0 2em 0;
+  }
+}
+@mixin artist-img {
+  height: auto;
+  width: 35vw;
+  @media screen and (max-width: 1024px) {
+    width: 40vw;
+  }
+  float: left;
+  margin: 0 1.5em .5em 0;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    margin: 0 0 2em;
+    width: 100%;
+    float: none;
+  }
+  border-radius: 3px;
+}
+
+@mixin feat-artist {
+  height: auto;
+  width: 25vw;
+  float: right;
+  margin: .5em 0 .6em 1.2em;
+  @media screen and (max-width: 600px) {
+    margin-left: 0;
+  }
+  @media screen and (max-width: 1024px) {
+    width: 35vw;
+  }
+  @media screen and (max-width: 600px) {
+    display: flex;
+    margin: 2em 0 2em;
+    width: 100%;
+    float: none;
+  }
+}
+@mixin content {
+  height: auto;
+  margin: $content;
+  padding-bottom: 5em;
+  img {
+    @include artist-img;
+  }
+  em {
+    font-style: italic;
+  }
+  .info-link {
+    text-decoration: none;
+  }
+  a {
+  text-decoration: none;
+  color: inherit;
+  }
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (max-width: 435px) {
+    margin: $mobile-content;
+  }
+}
+
+@mixin neil-images {
+  display: flex;
+  justify-content: space-around;
+  padding: 3em 0 3em 0;
+  height: auto;
+  width: 100%;
+  @media only screen and (max-width: 625px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  .neil-image {
+    img {
+      height: auto;
+      width: 50vw;
+      border: 2px solid $honeydew;
+      @media screen and (max-width: 525px) {
+        width: 100%;
+      }
+    }
+  }
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 2em;
+    h2 {
+      font-size: 1.2em;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    @media screen and (max-width: 625px) {
+      padding-top: 2em;
+      text-align: center;
+    }
+    @media screen and (max-width: 525px) {
+      padding: 2em 2em;
+      font-size: 1.3em;
+    }
+  }
+}
+
+@mixin neil-images2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  padding: 3em 0 3em 0;
+  height: auto;
+  width: 100%;
+  @media only screen and (max-width: 625px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  .neil-image {
+    img {
+      height: auto;
+      width: 50vw;
+      border: 2px solid $honeydew;
+      @media screen and (max-width: 525px) {
+        width: 100%;
+      }
+    }
+  }
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em 0 2em;
+    h2 {
+      font-size: 1.2em;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    @media screen and (max-width: 625px) {
+      padding-top: 2em;
+      text-align: center;
+    }
+    @media screen and (max-width: 525px) {
+      padding: 2em 2em;
+      font-size: 1.3em;
+    }
+  }
+}
