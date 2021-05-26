@@ -40,7 +40,7 @@ body {
   padding: 0 14em 0 14em;
   h1 {
     margin-bottom: .6em;
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     text-shadow: 2px 2px 2px $russian-violet;
     font-weight: 300;
     font-size: 4.3em;
@@ -87,7 +87,7 @@ body {
       a {
         text-decoration: none;
       }
-      background-color: $rich-black;
+      background-color: black;
       height: 20em;
       width: 22em;
       @media screen and (max-width: 1023px) {
@@ -114,7 +114,7 @@ body {
       border: .063em solid white;
       p {
         padding: 0 3em 2em 0;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Dosis', sans-serif;
         font-weight: 300;
         text-shadow: 0 0 1px black;
         color: white;
@@ -150,172 +150,172 @@ body {
         }
       }
     }
-    #neil1 {
-      background-image: url('../img/neil79.png');
-      background-position: 0% 10%;
-      background-size: cover;
-      @media screen and (max-width: 525px) {
-        background-position: 0% 10%;
-      }
-    }
-    #venetian {
-      background-image: url('../img/venetian.png');
-      background-position: center;
-      background-size: cover;
-    }
-    #kim {
-      background-image: url('../img/kimmy.png');
-      background-position: 0% 0%;
-      background-size: cover;
-      @media screen and (max-width: 1029px) {
-        p {
-          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
-        }
-      }
-      @media screen and (max-width: 525px) {
-        background-position: 0% 8%;
-      }
-    }
-    #ray {
-      background-image: url('../img/ray-acid.png');
-      background-position: center;
-      background-size: cover;
-      @media screen and (max-width: 525px) {
-        background-position: 0% 25%;
-      }
-    }
-    #khalid {
-      background-image: url('../img/khalid-smile.png');
-      background-position: 0 10%;
-      background-size: cover;
-      @media screen and (max-width: 1029px) {
-        p {
-          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
-        }
-      }
-      @media screen and (max-width: 525px) {
-        background-position: 10% 0%;
-      }
-    }
-    #maren {
-      background-image: url('../img/maren.png');
-      background-position: 0% 0%;
-      background-size: cover;
-      @media screen and (max-width: 525px) {
-        background-position: 0% 8%;
-        p {
-          padding-right: 1em;
-        }
-      }
-    }
-    #yvette {
-      background-image: url('../img/yvette.png');
-      background-position: center;
-      background-size: cover;
-      @media screen and (max-width: 1029px) {
-        p {
-          text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
-        }
-      }
-      @media screen and (max-width: 525px) {
-        background-position: 0% 20%;
-      }
-    }
-    #billie {
-      background-image: url('../img/billie-eilish.png');
-      background-position: center;
-      background-size: cover;
-      @media screen and (max-width: 1029px) {
-        p {
-          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
-        }
-      }
-      @media screen and (max-width: 525px) {
-        background-position: 0% 10%;
-      }
-    }
-    #trane {
-      background-image: url('../img/trane_1963.png');
-      background-position: center;
-      background-size: cover;
-      @media screen and (max-width: 525px) {
-        background-position: 0% 35%;
-      }
-    }
-    #lana {
-      background-image: url('../img/lana-pose.png');
-      background-position: 0% 0%;
-      background-size: cover;
-
-      @media screen and (max-width: 1029px) {
-        p {
-          padding-right: .4em;
-          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
-        }
-      }
-      @media screen and (max-width: 525px) {
-        background-position: 0% 10%;
-      }
-    }
-    #toro {
-      background-image: url('../img/toro.png');
-      background-position: 0% 10%;
-      background-size: cover;
-      @media screen and (max-width: 1029px) {
-        p {
-          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
-        }
-      }
-    }
-    #twigs {
-      background-image: url('../img/twigs.png');
-      background-position: center;
-      background-size: cover;
-      @media screen and (max-width: 1029px) {
-        p {
-          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
-        }
-      }
-      @media screen and (max-width: 525px) {
-        background-position: 0% 70%;
-      }
-    }
-    #juice {
-      background-image: url('../img/juice.png');
-      background-position: 42%;
-      background-size: cover;
-      @media screen and (max-width: 1029px) {
-        p {
-          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
-        }
-      }
-      @media screen and (max-width: 525px) {
-        background-position: 0% 15%;
-        p {
-          padding-right: 1em;
-        }
-      }
-    }
-    #nils {
-      background-image: url('../img/nils.png');
-      background-position: center;
-      background-size: cover;
-      @media screen and (max-width: 1029px) {
-        p {
-          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
-        }
-      }
-      @media screen and (max-width: 525px) {
-        background-position: 0% 15%;
-      }
-    }
-    #neil2 {
-      background-image: url('../img/neil-84.png');
-      background-position: center;
-      background-size: cover;
-      @media screen and (max-width: 525px) {
-        background-position: 0% 75%;
-      }
-    }
+    // #neil1 {
+    //   background-image: url('../img/neil79.png');
+    //   background-position: 0% 10%;
+    //   background-size: cover;
+    //   @media screen and (max-width: 525px) {
+    //     background-position: 0% 10%;
+    //   }
+    // }
+    // #venetian {
+    //   background-image: url('../img/venetian.png');
+    //   background-position: center;
+    //   background-size: cover;
+    // }
+    // #kim {
+    //   background-image: url('../img/kimmy.png');
+    //   background-position: 0% 0%;
+    //   background-size: cover;
+    //   @media screen and (max-width: 1029px) {
+    //     p {
+    //       text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+    //     }
+    //   }
+    //   @media screen and (max-width: 525px) {
+    //     background-position: 0% 8%;
+    //   }
+    // }
+    // #ray {
+    //   background-image: url('../img/ray-acid.png');
+    //   background-position: center;
+    //   background-size: cover;
+    //   @media screen and (max-width: 525px) {
+    //     background-position: 0% 25%;
+    //   }
+    // }
+    // #khalid {
+    //   background-image: url('../img/khalid-smile.png');
+    //   background-position: 0 10%;
+    //   background-size: cover;
+    //   @media screen and (max-width: 1029px) {
+    //     p {
+    //       text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+    //     }
+    //   }
+    //   @media screen and (max-width: 525px) {
+    //     background-position: 10% 0%;
+    //   }
+    // }
+    // #maren {
+    //   background-image: url('../img/maren.png');
+    //   background-position: 0% 0%;
+    //   background-size: cover;
+    //   @media screen and (max-width: 525px) {
+    //     background-position: 0% 8%;
+    //     p {
+    //       padding-right: 1em;
+    //     }
+    //   }
+    // }
+    // #yvette {
+    //   background-image: url('../img/yvette.png');
+    //   background-position: center;
+    //   background-size: cover;
+    //   @media screen and (max-width: 1029px) {
+    //     p {
+    //       text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
+    //     }
+    //   }
+    //   @media screen and (max-width: 525px) {
+    //     background-position: 0% 20%;
+    //   }
+    // // }
+    // // #billie {
+    // //   background-image: url('../img/billie-eilish.png');
+    // //   background-position: center;
+    // //   background-size: cover;
+    // //   @media screen and (max-width: 1029px) {
+    // //     p {
+    // //       text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+    // //     }
+    // //   }
+    // //   @media screen and (max-width: 525px) {
+    // //     background-position: 0% 10%;
+    // //   }
+    // }
+    // #trane {
+    //   background-image: url('../img/trane_1963.png');
+    //   background-position: center;
+    //   background-size: cover;
+    //   @media screen and (max-width: 525px) {
+    //     background-position: 0% 35%;
+    //   }
+    // }
+    // #lana {
+    //   background-image: url('../img/lana-pose.png');
+    //   background-position: 0% 0%;
+    //   background-size: cover;
+    //
+    //   @media screen and (max-width: 1029px) {
+    //     p {
+    //       padding-right: .4em;
+    //       text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+    //     }
+    //   }
+    //   @media screen and (max-width: 525px) {
+    //     background-position: 0% 10%;
+    //   }
+    // }
+    // #toro {
+    //   background-image: url('../img/toro.png');
+    //   background-position: 0% 10%;
+    //   background-size: cover;
+    //   @media screen and (max-width: 1029px) {
+    //     p {
+    //       text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+    //     }
+    //   }
+    // }
+    // #twigs {
+    //   background-image: url('../img/twigs.png');
+    //   background-position: center;
+    //   background-size: cover;
+    //   @media screen and (max-width: 1029px) {
+    //     p {
+    //       text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+    //     }
+    //   }
+    //   @media screen and (max-width: 525px) {
+    //     background-position: 0% 70%;
+    //   }
+    // }
+    // #juice {
+    //   background-image: url('../img/juice.png');
+    //   background-position: 42%;
+    //   background-size: cover;
+    //   @media screen and (max-width: 1029px) {
+    //     p {
+    //       text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+    //     }
+    //   }
+    //   @media screen and (max-width: 525px) {
+    //     background-position: 0% 15%;
+    //     p {
+    //       padding-right: 1em;
+    //     }
+    //   }
+    // }
+    // #nils {
+    //   background-image: url('../img/nils.png');
+    //   background-position: center;
+    //   background-size: cover;
+    //   @media screen and (max-width: 1029px) {
+    //     p {
+    //       text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+    //     }
+    //   }
+    //   @media screen and (max-width: 525px) {
+    //     background-position: 0% 15%;
+    //   }
+    // }
+    // #neil2 {
+    //   background-image: url('../img/neil-84.png');
+    //   background-position: center;
+    //   background-size: cover;
+    //   @media screen and (max-width: 525px) {
+    //     background-position: 0% 75%;
+    //   }
+    // }
   }
 }
