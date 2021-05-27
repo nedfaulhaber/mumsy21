@@ -3,7 +3,7 @@ body {
 }
 
 #wrapper {
-  background-color: $phthalo-green;
+  background-color: $bittersweet;
   padding-bottom: 10em;
 }
 
@@ -17,12 +17,12 @@ body {
 
 #home-nav {
   @include nav;
-  background-color: $phthalo-green;
+  background-color: $bittersweet;
   a {
     color: $isabelline;
-    text-shadow: 2px 2px 2px $russian-violet;
+    text-shadow: 2px 2px 2px $pictorial-carmine;
     &:hover {
-      color: $boysenberry;
+      color: $cornflower;
     }
   }
 }
@@ -41,16 +41,16 @@ body {
   h1 {
     margin-bottom: .6em;
     font-family: 'Dosis', sans-serif;
-    text-shadow: 2px 2px 2px $russian-violet;
+    text-shadow: 2px 2px 2px $pictorial-carmine;
     font-weight: 300;
     font-size: 4.3em;
   }
   a {
-    color: $boysenberry;
+    color: $pictorial-carmine;
     text-decoration: none;
     font-weight: bold;
     &:hover {
-      color: black;
+      color: $cornflower;
     }
   }
   @media screen and (max-width: 525px) {

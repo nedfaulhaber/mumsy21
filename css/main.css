@@ -142,7 +142,7 @@ body {
   background-color: black; }
 
 #wrapper {
-  background-color: #122C34;
+  background-color: #F27059;
   padding-bottom: 10em; }
 
 .sidenav {
@@ -182,7 +182,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #122C34; }
+  background-color: #F27059; }
   #home-nav a {
     font-family: 'Lato', sans-serif;
     letter-spacing: .1em;
@@ -194,9 +194,9 @@ body {
       width: 0; } }
   #home-nav a {
     color: #F3E8EE;
-    text-shadow: 2px 2px 2px #4A1942; }
+    text-shadow: 2px 2px 2px #CA054D; }
     #home-nav a:hover {
-      color: #893168; }
+      color: #8390FA; }
 
 .header {
   color: #F3E8EE;
@@ -212,15 +212,15 @@ body {
   .header h1 {
     margin-bottom: .6em;
     font-family: 'Dosis', sans-serif;
-    text-shadow: 2px 2px 2px #4A1942;
+    text-shadow: 2px 2px 2px #CA054D;
     font-weight: 300;
     font-size: 4.3em; }
   .header a {
-    color: #893168;
+    color: #CA054D;
     text-decoration: none;
     font-weight: bold; }
     .header a:hover {
-      color: black; }
+      color: #8390FA; }
   @media screen and (max-width: 525px) {
     .header {
       padding: 1em 2em 0;
