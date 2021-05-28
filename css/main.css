@@ -216,7 +216,7 @@ body {
     font-weight: 300;
     font-size: 4.3em; }
   .header a {
-    color: #CA054D;
+    color: #1D2F6F;
     text-decoration: none;
     font-weight: bold; }
     .header a:hover {
@@ -250,7 +250,7 @@ body {
         flex-direction: column;
         align-items: center; } }
     .gallery .row .image {
-      background-color: black;
+      background-color: #1D2F6F;
       height: 20em;
       width: 22em;
       border: .063em solid white; }
