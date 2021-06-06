@@ -308,6 +308,13 @@ body {
               width: 100%;
               height: 100%;
               background-color: rgba(0, 0, 0, 0.6); } }
+    .gallery .row #maalem {
+      background-image: url("../img/maalem_allstars.png");
+      background-size: cover; }
+    .gallery .row #husker {
+      background-image: url("../img/husker1.png");
+      background-position: center;
+      background-size: cover; }
 
 #rush-wrapper {
   background-color: #273043; }
