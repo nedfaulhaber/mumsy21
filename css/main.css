@@ -315,6 +315,21 @@ body {
       background-image: url("../img/husker1.png");
       background-position: center;
       background-size: cover; }
+    .gallery .row #midnight {
+      background-image: url("../img/midnight.png");
+      background-position: 0% 0%;
+      background-size: cover; }
+    .gallery .row #elida {
+      background-image: url("../img/elida2.png");
+      background-position: center;
+      background-size: cover; }
+    .gallery .row #sophie {
+      background-image: url("../img/sophie.png");
+      background-size: cover; }
+    .gallery .row #orville {
+      background-image: url("../img/orville.png");
+      background-position: 0% 0%;
+      background-size: cover; }
 
 #rush-wrapper {
   background-color: #273043; }
