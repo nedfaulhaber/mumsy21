@@ -3,7 +3,7 @@ body {
 }
 
 #wrapper {
-  background-color: $bittersweet;
+  background-color: $st-patricks-blue;
   padding-bottom: 10em;
 }
 
@@ -17,12 +17,12 @@ body {
 
 #home-nav {
   @include nav;
-  background-color: $bittersweet;
+  background-color: $st-patricks-blue;
   a {
-    color: $isabelline;
-    text-shadow: 2px 2px 2px $pictorial-carmine;
+    color: $bittersweet;
+    // text-shadow: 2px 2px 2px $bittersweet;
     &:hover {
-      color: $cornflower;
+      color: $pictorial-carmine;
     }
   }
 }
@@ -41,16 +41,16 @@ body {
   h1 {
     margin-bottom: .6em;
     font-family: 'Dosis', sans-serif;
-    text-shadow: 2px 2px 2px $pictorial-carmine;
+    text-shadow: 2px 2px 2px $bittersweet;
     font-weight: 300;
     font-size: 4.3em;
   }
   a {
-    color: $st-patricks-blue;
+    color: $bittersweet;
     text-decoration: none;
     font-weight: bold;
     &:hover {
-      color: $cornflower;
+      color: $pictorial-carmine;
     }
   }
   @media screen and (max-width: 525px) {
@@ -87,7 +87,7 @@ body {
       a {
         text-decoration: none;
       }
-      background-color: $st-patricks-blue;
+      background-color: $bittersweet;
       height: 20em;
       width: 22em;
       @media screen and (max-width: 1023px) {
@@ -208,10 +208,10 @@ body {
     //     }
     //   }
     }
-    // #yvette {
-    //   background-image: url('../img/yvette.png');
-    //   background-position: center;
-    //   background-size: cover;
+    #nubya {
+      background-image: url('../img/nubya.png');
+      background-position: center;
+      background-size: cover;
     //   @media screen and (max-width: 1029px) {
     //     p {
     //       text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
@@ -220,11 +220,11 @@ body {
     //   @media screen and (max-width: 525px) {
     //     background-position: 0% 20%;
     //   }
-    // // }
-    // // #billie {
-    // //   background-image: url('../img/billie-eilish.png');
-    // //   background-position: center;
-    // //   background-size: cover;
+    }
+    #caroline {
+      background-image: url('../img/caroline2.png');
+      background-position: center;
+      background-size: cover;
     // //   @media screen and (max-width: 1029px) {
     // //     p {
     // //       text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
@@ -233,19 +233,19 @@ body {
     // //   @media screen and (max-width: 525px) {
     // //     background-position: 0% 10%;
     // //   }
-    // }
-    // #trane {
-    //   background-image: url('../img/trane_1963.png');
-    //   background-position: center;
-    //   background-size: cover;
+    }
+    #ferg {
+      background-image: url('../img/ferg2.png');
+      background-position: center;
+      background-size: cover;
     //   @media screen and (max-width: 525px) {
     //     background-position: 0% 35%;
     //   }
-    // }
-    // #lana {
-    //   background-image: url('../img/lana-pose.png');
-    //   background-position: 0% 0%;
-    //   background-size: cover;
+    }
+    #weirdal {
+      background-image: url('../img/weirdal2.png');
+      background-position: 35% 0%;
+      background-size: cover;
     //
     //   @media screen and (max-width: 1029px) {
     //     p {
@@ -256,21 +256,21 @@ body {
     //   @media screen and (max-width: 525px) {
     //     background-position: 0% 10%;
     //   }
-    // }
-    // #toro {
-    //   background-image: url('../img/toro.png');
-    //   background-position: 0% 10%;
-    //   background-size: cover;
+    }
+    #sodycave {
+      background-image: url('../img/sodycave.png');
+      background-position: 0% 0%;
+      background-size: cover;
     //   @media screen and (max-width: 1029px) {
     //     p {
     //       text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
     //     }
     //   }
-    // }
-    // #twigs {
-    //   background-image: url('../img/twigs.png');
-    //   background-position: center;
-    //   background-size: cover;
+    }
+    #zappa {
+      background-image: url('../img/zappa.png');
+      background-position: center;
+      background-size: cover;
     //   @media screen and (max-width: 1029px) {
     //     p {
     //       text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
@@ -279,11 +279,11 @@ body {
     //   @media screen and (max-width: 525px) {
     //     background-position: 0% 70%;
     //   }
-    // }
-    // #juice {
-    //   background-image: url('../img/juice.png');
-    //   background-position: 42%;
-    //   background-size: cover;
+    }
+    #rodwave {
+      background-image: url('../img/rodwave.png');
+      background-position: center;
+      background-size: cover;
     //   @media screen and (max-width: 1029px) {
     //     p {
     //       text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
@@ -295,11 +295,11 @@ body {
     //       padding-right: 1em;
     //     }
     //   }
-    // }
-    // #nils {
-    //   background-image: url('../img/nils.png');
-    //   background-position: center;
-    //   background-size: cover;
+    }
+    #daftpunk {
+      background-image: url('../img/daftpunk.png');
+      background-position: center;
+      background-size: cover;
     //   @media screen and (max-width: 1029px) {
     //     p {
     //       text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
@@ -308,14 +308,14 @@ body {
     //   @media screen and (max-width: 525px) {
     //     background-position: 0% 15%;
     //   }
-    // }
-    // #neil2 {
-    //   background-image: url('../img/neil-84.png');
-    //   background-position: center;
-    //   background-size: cover;
+    }
+    #max {
+      background-image: url('../img/max.png');
+      background-position: center;
+      background-size: cover;
     //   @media screen and (max-width: 525px) {
     //     background-position: 0% 75%;
     //   }
-    // }
+    }
   }
 }

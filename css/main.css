@@ -142,7 +142,7 @@ body {
   background-color: black; }
 
 #wrapper {
-  background-color: #F27059;
+  background-color: #1D2F6F;
   padding-bottom: 10em; }
 
 .sidenav {
@@ -182,7 +182,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #F27059; }
+  background-color: #1D2F6F; }
   #home-nav a {
     font-family: 'Lato', sans-serif;
     letter-spacing: .1em;
@@ -193,10 +193,9 @@ body {
       height: 0;
       width: 0; } }
   #home-nav a {
-    color: #F3E8EE;
-    text-shadow: 2px 2px 2px #CA054D; }
+    color: #F27059; }
     #home-nav a:hover {
-      color: #8390FA; }
+      color: #CA054D; }
 
 .header {
   color: #F3E8EE;
@@ -212,15 +211,15 @@ body {
   .header h1 {
     margin-bottom: .6em;
     font-family: 'Dosis', sans-serif;
-    text-shadow: 2px 2px 2px #CA054D;
+    text-shadow: 2px 2px 2px #F27059;
     font-weight: 300;
     font-size: 4.3em; }
   .header a {
-    color: #1D2F6F;
+    color: #F27059;
     text-decoration: none;
     font-weight: bold; }
     .header a:hover {
-      color: #8390FA; }
+      color: #CA054D; }
   @media screen and (max-width: 525px) {
     .header {
       padding: 1em 2em 0;
@@ -250,7 +249,7 @@ body {
         flex-direction: column;
         align-items: center; } }
     .gallery .row .image {
-      background-color: #1D2F6F;
+      background-color: #F27059;
       height: 20em;
       width: 22em;
       border: .063em solid white; }
@@ -329,6 +328,42 @@ body {
     .gallery .row #orville {
       background-image: url("../img/orville.png");
       background-position: 0% 0%;
+      background-size: cover; }
+    .gallery .row #nubya {
+      background-image: url("../img/nubya.png");
+      background-position: center;
+      background-size: cover; }
+    .gallery .row #caroline {
+      background-image: url("../img/caroline2.png");
+      background-position: center;
+      background-size: cover; }
+    .gallery .row #ferg {
+      background-image: url("../img/ferg2.png");
+      background-position: center;
+      background-size: cover; }
+    .gallery .row #weirdal {
+      background-image: url("../img/weirdal2.png");
+      background-position: 35% 0%;
+      background-size: cover; }
+    .gallery .row #sodycave {
+      background-image: url("../img/sodycave.png");
+      background-position: 0% 0%;
+      background-size: cover; }
+    .gallery .row #zappa {
+      background-image: url("../img/zappa.png");
+      background-position: center;
+      background-size: cover; }
+    .gallery .row #rodwave {
+      background-image: url("../img/rodwave.png");
+      background-position: center;
+      background-size: cover; }
+    .gallery .row #daftpunk {
+      background-image: url("../img/daftpunk.png");
+      background-position: center;
+      background-size: cover; }
+    .gallery .row #max {
+      background-image: url("../img/max.png");
+      background-position: center;
       background-size: cover; }
 
 #rush-wrapper {
