@@ -1,8 +1,8 @@
-#rush-wrapper {
+#maalem-wrapper {
   background-color: $gunmetal;
 }
 
-#rush-mobile-nav {
+#maalem-mobile-nav {
   @include mobilenav;
   background-color: $honeydew;
   a {
@@ -10,7 +10,7 @@
   }
 }
 
-#rush-nav {
+#maalem-nav {
   @include nav;
   background-color: $gunmetal;
   a {
@@ -21,27 +21,17 @@
   }
 }
 
-#rush-header {
+#maalem-header {
   @include artist-header;
   color: $honeydew;
 }
 
-#rush-content {
+#maalem-content {
   @include content;
   color: $honeydew;
-  #lestudio {
-    @include feat-artist;
+  // padding-bottom: 10em;
+  img {
+    @include artist-img;
     width: 25vw;
-    @media screen and (max-width: 600px) {
-      display: flex;
-      margin: 2em 0 2em;
-      width: 70%;
-      float: none;
-    }
-  }
-  #neil81 {
-    @include feat-artist;
-    float: left;
-    margin: .5em 1.2em .5em 0;
   }
 }

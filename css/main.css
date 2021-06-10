@@ -81,7 +81,7 @@ p {
   letter-spacing: .05em;
   line-height: 1.7em;
   font-weight: 400;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-indent: 1.5em; }
 
 @media screen and (min-width: 320px) {
@@ -184,7 +184,7 @@ body {
   padding: 3em 3em 0;
   background-color: #1D2F6F; }
   #home-nav a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
@@ -366,10 +366,10 @@ body {
       background-position: center;
       background-size: cover; }
 
-#rush-wrapper {
+#maalem-wrapper {
   background-color: #273043; }
 
-#rush-mobile-nav {
+#maalem-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -380,25 +380,25 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: #EFF6EE; }
-  #rush-mobile-nav a {
+  #maalem-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #rush-mobile-nav .sidenav .closebtn {
+  #maalem-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #rush-mobile-nav .closebtn {
+  #maalem-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #rush-mobile-nav a {
+  #maalem-mobile-nav a {
     color: #273043; }
 
-#rush-nav {
+#maalem-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -407,141 +407,114 @@ body {
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
   background-color: #273043; }
-  #rush-nav a {
-    font-family: 'Lato', sans-serif;
+  #maalem-nav a {
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #rush-nav {
+    #maalem-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #rush-nav a {
+  #maalem-nav a {
     color: #EFF6EE; }
-    #rush-nav a:hover {
+    #maalem-nav a:hover {
       color: black; }
 
-#rush-header {
+#maalem-header {
   margin: 3.5em 2em 3em 3em;
   color: #EFF6EE; }
   @media screen and (max-width: 600px) {
-    #rush-header {
+    #maalem-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #rush-header {
+    #maalem-header {
       margin-top: 0; } }
-  #rush-header h2 {
-    font-family: 'Odibee Sans', cursive;
+  #maalem-header h2 {
+    font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #rush-header .song {
-    font-family: 'Odibee Sans', cursive;
+  #maalem-header .song {
+    font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #rush-header .song span {
+    #maalem-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #rush-header .song span em {
+      #maalem-header .song span em {
         font-style: italic; }
-  #rush-header .hamburger {
+  #maalem-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #rush-header .hamburger {
+      #maalem-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#rush-content {
+#maalem-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
   color: #EFF6EE; }
-  #rush-content img {
+  #maalem-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #rush-content img {
+      #maalem-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #rush-content img {
+      #maalem-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #rush-content em {
+  #maalem-content em {
     font-style: italic; }
-  #rush-content .info-link {
+  #maalem-content .info-link {
     text-decoration: none; }
-  #rush-content a {
+  #maalem-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #rush-content {
+    #maalem-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #rush-content {
+    #maalem-content {
       margin: 0 1.5em 0 1.5em; } }
-  #rush-content #lestudio {
+  #maalem-content img {
     height: auto;
-    width: 25vw;
-    float: right;
-    margin: .5em 0 .6em 1.2em;
-    width: 25vw; }
-    @media screen and (max-width: 600px) {
-      #rush-content #lestudio {
-        margin-left: 0; } }
-    @media screen and (max-width: 1024px) {
-      #rush-content #lestudio {
-        width: 35vw; } }
-    @media screen and (max-width: 600px) {
-      #rush-content #lestudio {
-        display: flex;
-        margin: 2em 0 2em;
-        width: 100%;
-        float: none; } }
-    @media screen and (max-width: 600px) {
-      #rush-content #lestudio {
-        display: flex;
-        margin: 2em 0 2em;
-        width: 70%;
-        float: none; } }
-  #rush-content #neil81 {
-    height: auto;
-    width: 25vw;
-    float: right;
-    margin: .5em 0 .6em 1.2em;
+    width: 35vw;
     float: left;
-    margin: .5em 1.2em .5em 0; }
-    @media screen and (max-width: 600px) {
-      #rush-content #neil81 {
-        margin-left: 0; } }
+    margin: 0 1.5em .5em 0;
+    border-radius: 3px;
+    width: 25vw; }
     @media screen and (max-width: 1024px) {
-      #rush-content #neil81 {
-        width: 35vw; } }
+      #maalem-content img {
+        width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #rush-content #neil81 {
+      #maalem-content img {
         display: flex;
-        margin: 2em 0 2em;
+        margin: 0 0 2em;
         width: 100%;
         float: none; } }
 
-#snares-wrapper {
+#husker-wrapper {
   background-color: #2E86AB; }
 
-#snares-mobile-nav {
+#husker-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -552,25 +525,25 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: white; }
-  #snares-mobile-nav a {
+  #husker-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #snares-mobile-nav .sidenav .closebtn {
+  #husker-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #snares-mobile-nav .closebtn {
+  #husker-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #snares-mobile-nav a {
+  #husker-mobile-nav a {
     color: #2E86AB; }
 
-#snares-nav {
+#husker-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -579,101 +552,101 @@ body {
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
   background-color: #2E86AB; }
-  #snares-nav a {
-    font-family: 'Lato', sans-serif;
+  #husker-nav a {
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #snares-nav {
+    #husker-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #snares-nav a {
+  #husker-nav a {
     color: white; }
-    #snares-nav a:hover {
+    #husker-nav a:hover {
       color: black; }
 
-#snares-header {
+#husker-header {
   margin: 3.5em 2em 3em 3em;
   color: white; }
   @media screen and (max-width: 600px) {
-    #snares-header {
+    #husker-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #snares-header {
+    #husker-header {
       margin-top: 0; } }
-  #snares-header h2 {
-    font-family: 'Odibee Sans', cursive;
+  #husker-header h2 {
+    font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #snares-header .song {
-    font-family: 'Odibee Sans', cursive;
+  #husker-header .song {
+    font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #snares-header .song span {
+    #husker-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #snares-header .song span em {
+      #husker-header .song span em {
         font-style: italic; }
-  #snares-header .hamburger {
+  #husker-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #snares-header .hamburger {
+      #husker-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
-  #snares-header .song {
+  #husker-header .song {
     line-height: 1.2em; }
     @media screen and (max-width: 850px) {
-      #snares-header .song {
+      #husker-header .song {
         margin-right: 2em; } }
     @media screen and (max-width: 600px) {
-      #snares-header .song {
+      #husker-header .song {
         text-align: center;
         margin: 0 2em 0; } }
 
-#snares-content {
+#husker-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
   color: white; }
-  #snares-content img {
+  #husker-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #snares-content img {
+      #husker-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #snares-content img {
+      #husker-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #snares-content em {
+  #husker-content em {
     font-style: italic; }
-  #snares-content .info-link {
+  #husker-content .info-link {
     text-decoration: none; }
-  #snares-content a {
+  #husker-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #snares-content {
+    #husker-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #snares-content {
+    #husker-content {
       margin: 0 1.5em 0 1.5em; } }
 
 #kim-wrapper {
@@ -718,7 +691,7 @@ body {
   padding: 3em 3em 0;
   background-color: #845A6D; }
   #kim-nav a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
@@ -745,11 +718,11 @@ body {
     #kim-header {
       margin-top: 0; } }
   #kim-header h2 {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
   #kim-header .song {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
     #kim-header .song span {
@@ -847,7 +820,7 @@ body {
   padding: 3em 3em 0;
   background-color: #6A3937; }
   #ray-nav a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
@@ -874,11 +847,11 @@ body {
     #ray-header {
       margin-top: 0; } }
   #ray-header h2 {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
   #ray-header .song {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
     #ray-header .song span {
@@ -976,7 +949,7 @@ body {
   padding: 3em 3em 0;
   background-color: #1B264F; }
   #khalid-nav a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
@@ -1003,11 +976,11 @@ body {
     #khalid-header {
       margin-top: 0; } }
   #khalid-header h2 {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
   #khalid-header .song {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
     #khalid-header .song span {
@@ -1109,7 +1082,7 @@ body {
   padding: 3em 3em 0;
   background-color: #353535; }
   #maren-nav a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
@@ -1136,11 +1109,11 @@ body {
     #maren-header {
       margin-top: 0; } }
   #maren-header h2 {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
   #maren-header .song {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
     #maren-header .song span {
@@ -1238,7 +1211,7 @@ body {
   padding: 3em 3em 0;
   background-color: #60463B; }
   #yvette-nav a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
@@ -1265,11 +1238,11 @@ body {
     #yvette-header {
       margin-top: 0; } }
   #yvette-header h2 {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
   #yvette-header .song {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
     #yvette-header .song span {
@@ -1367,7 +1340,7 @@ body {
   padding: 3em 3em 0;
   background-color: #70163C; }
   #billie-nav a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
@@ -1394,11 +1367,11 @@ body {
     #billie-header {
       margin-top: 0; } }
   #billie-header h2 {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
   #billie-header .song {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
     #billie-header .song span {
@@ -1500,7 +1473,7 @@ body {
   padding: 3em 3em 0;
   background-color: #39304A; }
   #trane-nav a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
@@ -1527,11 +1500,11 @@ body {
     #trane-header {
       margin-top: 0; } }
   #trane-header h2 {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
   #trane-header .song {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
     #trane-header .song span {
@@ -1672,7 +1645,7 @@ body {
   padding: 3em 3em 0;
   background-color: #031926; }
   #lana-nav a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
@@ -1699,11 +1672,11 @@ body {
     #lana-header {
       margin-top: 0; } }
   #lana-header h2 {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
   #lana-header .song {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
     #lana-header .song span {
@@ -1810,7 +1783,7 @@ body {
   padding: 3em 3em 0;
   background-color: #030726; }
   #toro-nav a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
@@ -1837,11 +1810,11 @@ body {
     #toro-header {
       margin-top: 0; } }
   #toro-header h2 {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
   #toro-header .song {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
     #toro-header .song span {
@@ -1939,7 +1912,7 @@ body {
   padding: 3em 3em 0;
   background-color: black; }
   #twigs-nav a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
@@ -1966,11 +1939,11 @@ body {
     #twigs-header {
       margin-top: 0; } }
   #twigs-header h2 {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
   #twigs-header .song {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
     #twigs-header .song span {
@@ -2068,7 +2041,7 @@ body {
   padding: 3em 3em 0;
   background-color: #CA054D; }
   #juice-nav a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
@@ -2095,11 +2068,11 @@ body {
     #juice-header {
       margin-top: 0; } }
   #juice-header h2 {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
   #juice-header .song {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
     #juice-header .song span {
@@ -2201,7 +2174,7 @@ body {
   padding: 3em 3em 0;
   background-color: #3C1518; }
   #nils-nav a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
@@ -2228,11 +2201,11 @@ body {
     #nils-header {
       margin-top: 0; } }
   #nils-header h2 {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
   #nils-header .song {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
     #nils-header .song span {
@@ -2330,7 +2303,7 @@ body {
   padding: 3em 3em 0;
   background-color: black; }
   #rush2-nav a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
@@ -2357,11 +2330,11 @@ body {
     #rush2-header {
       margin-top: 0; } }
   #rush2-header h2 {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
   #rush2-header .song {
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
     #rush2-header .song span {
@@ -2416,149 +2389,5 @@ body {
   @media screen and (max-width: 435px) {
     #rush2-content {
       margin: 0 1.5em 0 1.5em; } }
-
-.neil-gallery {
-  color: #C5C5C5;
-  padding: 3em 2em 5em 2em;
-  height: auto;
-  width: 100%; }
-  .neil-gallery h2 {
-    font-family: 'Odibee Sans', cursive;
-    letter-spacing: .12em;
-    line-height: 1.3em; }
-  .neil-gallery .neil1 {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-    padding: 3em 0 3em 0;
-    height: auto;
-    width: 100%; }
-    @media only screen and (max-width: 625px) {
-      .neil-gallery .neil1 {
-        flex-direction: column;
-        align-items: center; } }
-    .neil-gallery .neil1 .neil-image img {
-      height: auto;
-      width: 50vw;
-      border: 2px solid #EFF6EE; }
-      @media screen and (max-width: 525px) {
-        .neil-gallery .neil1 .neil-image img {
-          width: 100%; } }
-    .neil-gallery .neil1 .description {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 0 1em 0 2em; }
-      .neil-gallery .neil1 .description h2 {
-        font-size: 1.2em;
-        font-family: 'Source Sans Pro', sans-serif; }
-      @media screen and (max-width: 625px) {
-        .neil-gallery .neil1 .description {
-          padding-top: 2em;
-          text-align: center; } }
-      @media screen and (max-width: 525px) {
-        .neil-gallery .neil1 .description {
-          padding: 2em 2em;
-          font-size: 1.3em; } }
-  .neil-gallery .neil2 {
-    display: flex;
-    justify-content: space-around;
-    padding: 3em 0 3em 0;
-    height: auto;
-    width: 100%; }
-    @media only screen and (max-width: 625px) {
-      .neil-gallery .neil2 {
-        flex-direction: column;
-        align-items: center; } }
-    .neil-gallery .neil2 .neil-image img {
-      height: auto;
-      width: 50vw;
-      border: 2px solid #EFF6EE; }
-      @media screen and (max-width: 525px) {
-        .neil-gallery .neil2 .neil-image img {
-          width: 100%; } }
-    .neil-gallery .neil2 .description {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 0 0 0 2em; }
-      .neil-gallery .neil2 .description h2 {
-        font-size: 1.2em;
-        font-family: 'Source Sans Pro', sans-serif; }
-      @media screen and (max-width: 625px) {
-        .neil-gallery .neil2 .description {
-          padding-top: 2em;
-          text-align: center; } }
-      @media screen and (max-width: 525px) {
-        .neil-gallery .neil2 .description {
-          padding: 2em 2em;
-          font-size: 1.3em; } }
-  .neil-gallery .neil3 {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-    padding: 3em 0 3em 0;
-    height: auto;
-    width: 100%; }
-    @media only screen and (max-width: 625px) {
-      .neil-gallery .neil3 {
-        flex-direction: column;
-        align-items: center; } }
-    .neil-gallery .neil3 .neil-image img {
-      height: auto;
-      width: 50vw;
-      border: 2px solid #EFF6EE; }
-      @media screen and (max-width: 525px) {
-        .neil-gallery .neil3 .neil-image img {
-          width: 100%; } }
-    .neil-gallery .neil3 .description {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 0 1em 0 2em; }
-      .neil-gallery .neil3 .description h2 {
-        font-size: 1.2em;
-        font-family: 'Source Sans Pro', sans-serif; }
-      @media screen and (max-width: 625px) {
-        .neil-gallery .neil3 .description {
-          padding-top: 2em;
-          text-align: center; } }
-      @media screen and (max-width: 525px) {
-        .neil-gallery .neil3 .description {
-          padding: 2em 2em;
-          font-size: 1.3em; } }
-  .neil-gallery .neil4 {
-    display: flex;
-    justify-content: space-around;
-    padding: 3em 0 3em 0;
-    height: auto;
-    width: 100%; }
-    @media only screen and (max-width: 625px) {
-      .neil-gallery .neil4 {
-        flex-direction: column;
-        align-items: center; } }
-    .neil-gallery .neil4 .neil-image img {
-      height: auto;
-      width: 50vw;
-      border: 2px solid #EFF6EE; }
-      @media screen and (max-width: 525px) {
-        .neil-gallery .neil4 .neil-image img {
-          width: 100%; } }
-    .neil-gallery .neil4 .description {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 0 0 0 2em; }
-      .neil-gallery .neil4 .description h2 {
-        font-size: 1.2em;
-        font-family: 'Source Sans Pro', sans-serif; }
-      @media screen and (max-width: 625px) {
-        .neil-gallery .neil4 .description {
-          padding-top: 2em;
-          text-align: center; } }
-      @media screen and (max-width: 525px) {
-        .neil-gallery .neil4 .description {
-          padding: 2em 2em;
-          font-size: 1.3em; } }
 
 /*# sourceMappingURL=main.css.map */

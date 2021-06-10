@@ -1,8 +1,8 @@
-#snares-wrapper {
+#husker-wrapper {
   background-color: $steel-blue;
 }
 
-#snares-mobile-nav {
+#husker-mobile-nav {
   @include mobilenav;
   background-color: white;
   a {
@@ -10,7 +10,7 @@
   }
 }
 
-#snares-nav {
+#husker-nav {
   @include nav;
   background-color: $steel-blue;
   a {
@@ -21,7 +21,7 @@
   }
 }
 
-#snares-header {
+#husker-header {
   @include artist-header;
   color: white;
   .song {
@@ -29,7 +29,7 @@
   }
 }
 
-#snares-content {
+#husker-content {
   @include content;
   color: white;
 }
