@@ -1,10 +1,10 @@
 #husker-wrapper {
-  background-color: $steel-blue;
+  background-color: $persian-plum;
 }
 
 #husker-mobile-nav {
   @include mobilenav;
-  background-color: white;
+  background-color: $almond;
   a {
     color: $steel-blue;
   }
@@ -12,9 +12,9 @@
 
 #husker-nav {
   @include nav;
-  background-color: $steel-blue;
+  background-color: $persian-plum;
   a {
-    color: white;
+    color: $almond;
     &:hover {
       color: black;
     }
@@ -23,13 +23,10 @@
 
 #husker-header {
   @include artist-header;
-  color: white;
-  .song {
-    @include long-song;
-  }
+  color: $almond;
 }
 
 #husker-content {
   @include content;
-  color: white;
+  color: $almond;
 }

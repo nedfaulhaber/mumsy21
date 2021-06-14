@@ -1,20 +1,20 @@
 #maalem-wrapper {
-  background-color: $gunmetal;
+  background-color: $dark-purple;
 }
 
 #maalem-mobile-nav {
   @include mobilenav;
-  background-color: $honeydew;
+  background-color: $lavender-blue;
   a {
-    color: $gunmetal;
+    color: $dark-purple;
   }
 }
 
 #maalem-nav {
   @include nav;
-  background-color: $gunmetal;
+  background-color: $dark-purple;
   a {
-    color: $honeydew;
+    color: $lavender-blue;
     &:hover {
       color: black;
     }
@@ -23,12 +23,12 @@
 
 #maalem-header {
   @include artist-header;
-  color: $honeydew;
+  color: $lavender-blue;
 }
 
 #maalem-content {
   @include content;
-  color: $honeydew;
+  color: $lavender-blue;
   // padding-bottom: 10em;
   img {
     @include artist-img;
