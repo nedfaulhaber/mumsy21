@@ -1,0 +1,35 @@
+#elida-wrapper {
+  background-color: #E09F3E;
+}
+
+#elida-mobile-nav {
+  @include mobilenav;
+  background-color: $black-shadows;
+  a {
+    color: wine;
+  }
+}
+
+#elida-nav {
+  @include nav;
+  background-color: #E09F3E;
+  a {
+    color: #4E0295;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#elida-header {
+  @include artist-header;
+  color: #4E0295;
+}
+
+#elida-content {
+  @include content;
+  color: #4E0295;
+  .elji {
+  @include feat-artist;
+  }
+}

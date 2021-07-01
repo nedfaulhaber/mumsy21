@@ -319,7 +319,7 @@ body {
       background-position: 0% 0%;
       background-size: cover; }
     .gallery .row #elida {
-      background-image: url("../img/elida2.png");
+      background-image: url("../img/elida.png");
       background-position: center;
       background-size: cover; }
     .gallery .row #sophie {
@@ -769,10 +769,10 @@ body {
     #midnight-content {
       margin: 0 1.5em 0 1.5em; } }
 
-#ray-wrapper {
-  background-color: #6A3937; }
+#elida-wrapper {
+  background-color: #E09F3E; }
 
-#ray-mobile-nav {
+#elida-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -783,25 +783,25 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: #BFB5AF; }
-  #ray-mobile-nav a {
+  #elida-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #ray-mobile-nav .sidenav .closebtn {
+  #elida-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #ray-mobile-nav .closebtn {
+  #elida-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #ray-mobile-nav a {
+  #elida-mobile-nav a {
     color: wine; }
 
-#ray-nav {
+#elida-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -809,94 +809,111 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #6A3937; }
-  #ray-nav a {
+  background-color: #E09F3E; }
+  #elida-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #ray-nav {
+    #elida-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #ray-nav a {
-    color: #BFB5AF; }
-    #ray-nav a:hover {
+  #elida-nav a {
+    color: #4E0295; }
+    #elida-nav a:hover {
       color: black; }
 
-#ray-header {
+#elida-header {
   margin: 3.5em 2em 3em 3em;
-  color: #BFB5AF; }
+  color: #4E0295; }
   @media screen and (max-width: 600px) {
-    #ray-header {
+    #elida-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #ray-header {
+    #elida-header {
       margin-top: 0; } }
-  #ray-header h2 {
+  #elida-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #ray-header .song {
+  #elida-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #ray-header .song span {
+    #elida-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #ray-header .song span em {
+      #elida-header .song span em {
         font-style: italic; }
-  #ray-header .hamburger {
+  #elida-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #ray-header .hamburger {
+      #elida-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#ray-content {
+#elida-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #BFB5AF; }
-  #ray-content img {
+  color: #4E0295; }
+  #elida-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #ray-content img {
+      #elida-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #ray-content img {
+      #elida-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #ray-content em {
+  #elida-content em {
     font-style: italic; }
-  #ray-content .info-link {
+  #elida-content .info-link {
     text-decoration: none; }
-  #ray-content a {
+  #elida-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #ray-content {
+    #elida-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #ray-content {
+    #elida-content {
       margin: 0 1.5em 0 1.5em; } }
+  #elida-content .elji {
+    height: auto;
+    width: 25vw;
+    float: right;
+    margin: .5em 0 .6em 1.2em; }
+    @media screen and (max-width: 600px) {
+      #elida-content .elji {
+        margin-left: 0; } }
+    @media screen and (max-width: 1024px) {
+      #elida-content .elji {
+        width: 35vw; } }
+    @media screen and (max-width: 600px) {
+      #elida-content .elji {
+        display: flex;
+        margin: 2em 0 2em;
+        width: 100%;
+        float: none; } }
 
 #khalid-wrapper {
   background-color: #1B264F; }
