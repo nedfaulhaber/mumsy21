@@ -915,10 +915,10 @@ body {
         width: 100%;
         float: none; } }
 
-#khalid-wrapper {
+#sophie-wrapper {
   background-color: #1B264F; }
 
-#khalid-mobile-nav {
+#sophie-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -929,25 +929,25 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: #EEF2F2; }
-  #khalid-mobile-nav a {
+  #sophie-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #khalid-mobile-nav .sidenav .closebtn {
+  #sophie-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #khalid-mobile-nav .closebtn {
+  #sophie-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #khalid-mobile-nav a {
+  #sophie-mobile-nav a {
     color: #1B264F; }
 
-#khalid-nav {
+#sophie-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -956,96 +956,96 @@ body {
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
   background-color: #1B264F; }
-  #khalid-nav a {
+  #sophie-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #khalid-nav {
+    #sophie-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #khalid-nav a {
+  #sophie-nav a {
     color: #EEF2F2; }
-    #khalid-nav a:hover {
+    #sophie-nav a:hover {
       color: black; }
 
-#khalid-header {
+#sophie-header {
   margin: 3.5em 2em 3em 3em;
   color: #EEF2F2; }
   @media screen and (max-width: 600px) {
-    #khalid-header {
+    #sophie-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #khalid-header {
+    #sophie-header {
       margin-top: 0; } }
-  #khalid-header h2 {
+  #sophie-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #khalid-header .song {
+  #sophie-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #khalid-header .song span {
+    #sophie-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #khalid-header .song span em {
+      #sophie-header .song span em {
         font-style: italic; }
-  #khalid-header .hamburger {
+  #sophie-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #khalid-header .hamburger {
+      #sophie-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#khalid-content {
+#sophie-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
   color: #EEF2F2; }
-  #khalid-content img {
+  #sophie-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #khalid-content img {
+      #sophie-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #khalid-content img {
+      #sophie-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #khalid-content em {
+  #sophie-content em {
     font-style: italic; }
-  #khalid-content .info-link {
+  #sophie-content .info-link {
     text-decoration: none; }
-  #khalid-content a {
+  #sophie-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #khalid-content {
+    #sophie-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #khalid-content {
+    #sophie-content {
       margin: 0 1.5em 0 1.5em; } }
-  #khalid-content a {
+  #sophie-content a {
     color: #468189; }
-    #khalid-content a:hover {
+    #sophie-content a:hover {
       color: black; }
 
 #maren-wrapper {

@@ -1,8 +1,8 @@
-#khalid-wrapper {
+#sophie-wrapper {
   background-color: $space-cadet;
 }
 
-#khalid-mobile-nav {
+#sophie-mobile-nav {
   @include mobilenav;
   background-color: $anti-flash-white;
   a {
@@ -10,7 +10,7 @@
   }
 }
 
-#khalid-nav {
+#sophie-nav {
   @include nav;
   background-color: $space-cadet;
   a {
@@ -21,12 +21,12 @@
   }
 }
 
-#khalid-header {
+#sophie-header {
   @include artist-header;
   color: $anti-flash-white;
 }
 
-#khalid-content {
+#sophie-content {
   @include content;
   color: $anti-flash-white;
   a {
