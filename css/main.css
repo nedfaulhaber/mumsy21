@@ -770,7 +770,7 @@ body {
       margin: 0 1.5em 0 1.5em; } }
 
 #elida-wrapper {
-  background-color: #E09F3E; }
+  background-color: #EF6461; }
 
 #elida-mobile-nav {
   height: 100%;
@@ -809,7 +809,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #E09F3E; }
+  background-color: #EF6461; }
   #elida-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
@@ -820,13 +820,13 @@ body {
       height: 0;
       width: 0; } }
   #elida-nav a {
-    color: #4E0295; }
+    color: #37392E; }
     #elida-nav a:hover {
       color: black; }
 
 #elida-header {
   margin: 3.5em 2em 3em 3em;
-  color: #4E0295; }
+  color: #37392E; }
   @media screen and (max-width: 600px) {
     #elida-header {
       display: flex;
@@ -866,7 +866,7 @@ body {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #4E0295; }
+  color: #37392E; }
   #elida-content img {
     height: auto;
     width: 35vw;
@@ -1048,10 +1048,10 @@ body {
     #sophie-content a:hover {
       color: black; }
 
-#maren-wrapper {
-  background-color: #353535; }
+#orville-wrapper {
+  background-color: #3A3042; }
 
-#maren-mobile-nav {
+#orville-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -1061,26 +1061,26 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
-  background-color: #93B7BE; }
-  #maren-mobile-nav a {
+  background-color: #3A3042; }
+  #orville-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #maren-mobile-nav .sidenav .closebtn {
+  #orville-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #maren-mobile-nav .closebtn {
+  #orville-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #maren-mobile-nav a {
+  #orville-mobile-nav a {
     color: #353535; }
 
-#maren-nav {
+#orville-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1088,93 +1088,93 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #353535; }
-  #maren-nav a {
+  background-color: #3A3042; }
+  #orville-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #maren-nav {
+    #orville-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #maren-nav a {
-    color: #93B7BE; }
-    #maren-nav a:hover {
+  #orville-nav a {
+    color: #88A09E; }
+    #orville-nav a:hover {
       color: black; }
 
-#maren-header {
+#orville-header {
   margin: 3.5em 2em 3em 3em;
-  color: #93B7BE; }
+  color: #88A09E; }
   @media screen and (max-width: 600px) {
-    #maren-header {
+    #orville-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #maren-header {
+    #orville-header {
       margin-top: 0; } }
-  #maren-header h2 {
+  #orville-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #maren-header .song {
+  #orville-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #maren-header .song span {
+    #orville-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #maren-header .song span em {
+      #orville-header .song span em {
         font-style: italic; }
-  #maren-header .hamburger {
+  #orville-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #maren-header .hamburger {
+      #orville-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#maren-content {
+#orville-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #93B7BE; }
-  #maren-content img {
+  color: #88A09E; }
+  #orville-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #maren-content img {
+      #orville-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #maren-content img {
+      #orville-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #maren-content em {
+  #orville-content em {
     font-style: italic; }
-  #maren-content .info-link {
+  #orville-content .info-link {
     text-decoration: none; }
-  #maren-content a {
+  #orville-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #maren-content {
+    #orville-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #maren-content {
+    #orville-content {
       margin: 0 1.5em 0 1.5em; } }
 
 #yvette-wrapper {

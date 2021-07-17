@@ -1,5 +1,5 @@
 #elida-wrapper {
-  background-color: #E09F3E;
+  background-color: $fire-opal;
 }
 
 #elida-mobile-nav {
@@ -12,9 +12,9 @@
 
 #elida-nav {
   @include nav;
-  background-color: #E09F3E;
+  background-color: $fire-opal;
   a {
-    color: #4E0295;
+    color: $black-olive;
     &:hover {
       color: black;
     }
@@ -23,12 +23,12 @@
 
 #elida-header {
   @include artist-header;
-  color: #4E0295;
+  color: $black-olive;
 }
 
 #elida-content {
   @include content;
-  color: #4E0295;
+  color: $black-olive;
   .elji {
   @include feat-artist;
   }

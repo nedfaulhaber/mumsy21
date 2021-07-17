@@ -1,0 +1,32 @@
+#orville-wrapper {
+  background-color: $english-violet;
+}
+
+#orville-mobile-nav {
+  @include mobilenav;
+  background-color: $english-violet;
+  a {
+    color: $jet;
+  }
+}
+
+#orville-nav {
+  @include nav;
+  background-color: $english-violet;
+  a {
+    color: #88A09E;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#orville-header {
+  @include artist-header;
+  color: #88A09E;
+}
+
+#orville-content {
+  @include content;
+  color: #88A09E;
+}
