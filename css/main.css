@@ -1177,10 +1177,10 @@ body {
     #orville-content {
       margin: 0 1.5em 0 1.5em; } }
 
-#yvette-wrapper {
-  background-color: #60463B; }
+#nubya-wrapper {
+  background-color: #8C2155; }
 
-#yvette-mobile-nav {
+#nubya-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -1191,25 +1191,25 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: #CCC9E7; }
-  #yvette-mobile-nav a {
+  #nubya-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #yvette-mobile-nav .sidenav .closebtn {
+  #nubya-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #yvette-mobile-nav .closebtn {
+  #nubya-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #yvette-mobile-nav a {
+  #nubya-mobile-nav a {
     color: #60463B; }
 
-#yvette-nav {
+#nubya-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1217,93 +1217,93 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #60463B; }
-  #yvette-nav a {
+  background-color: #8C2155; }
+  #nubya-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #yvette-nav {
+    #nubya-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #yvette-nav a {
-    color: #CCC9E7; }
-    #yvette-nav a:hover {
+  #nubya-nav a {
+    color: #628395; }
+    #nubya-nav a:hover {
       color: black; }
 
-#yvette-header {
+#nubya-header {
   margin: 3.5em 2em 3em 3em;
-  color: #CCC9E7; }
+  color: #628395; }
   @media screen and (max-width: 600px) {
-    #yvette-header {
+    #nubya-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #yvette-header {
+    #nubya-header {
       margin-top: 0; } }
-  #yvette-header h2 {
+  #nubya-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #yvette-header .song {
+  #nubya-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #yvette-header .song span {
+    #nubya-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #yvette-header .song span em {
+      #nubya-header .song span em {
         font-style: italic; }
-  #yvette-header .hamburger {
+  #nubya-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #yvette-header .hamburger {
+      #nubya-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#yvette-content {
+#nubya-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #CCC9E7; }
-  #yvette-content img {
+  color: #628395; }
+  #nubya-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #yvette-content img {
+      #nubya-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #yvette-content img {
+      #nubya-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #yvette-content em {
+  #nubya-content em {
     font-style: italic; }
-  #yvette-content .info-link {
+  #nubya-content .info-link {
     text-decoration: none; }
-  #yvette-content a {
+  #nubya-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #yvette-content {
+    #nubya-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #yvette-content {
+    #nubya-content {
       margin: 0 1.5em 0 1.5em; } }
 
 #billie-wrapper {
