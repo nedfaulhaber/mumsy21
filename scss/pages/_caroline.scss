@@ -1,8 +1,8 @@
-#billie-wrapper {
-  background-color: $pansy-purple;
+#caroline-wrapper {
+  background-color: $rich-black-fogra39;
 }
 
-#billie-mobile-nav {
+#caroline-mobile-nav {
   @include mobilenav;
   background-color: $silver;
   a {
@@ -10,9 +10,9 @@
   }
 }
 
-#billie-nav {
+#caroline-nav {
   @include nav;
-  background-color: $pansy-purple;
+  background-color: $rich-black-fogra39;
   a {
     color: $silver;
     &:hover {
@@ -21,12 +21,12 @@
   }
 }
 
-#billie-header {
+#caroline-header {
   @include artist-header;
   color: $silver;
 }
 
-#billie-content {
+#caroline-content {
   @include content;
   color: $silver;
   a {

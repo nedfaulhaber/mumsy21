@@ -770,7 +770,7 @@ body {
       margin: 0 1.5em 0 1.5em; } }
 
 #elida-wrapper {
-  background-color: #EF6461; }
+  background-color: #83B692; }
 
 #elida-mobile-nav {
   height: 100%;
@@ -809,7 +809,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #EF6461; }
+  background-color: #83B692; }
   #elida-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
@@ -1178,7 +1178,7 @@ body {
       margin: 0 1.5em 0 1.5em; } }
 
 #nubya-wrapper {
-  background-color: #8C2155; }
+  background-color: #372549; }
 
 #nubya-mobile-nav {
   height: 100%;
@@ -1217,7 +1217,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #8C2155; }
+  background-color: #372549; }
   #nubya-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
@@ -1306,10 +1306,10 @@ body {
     #nubya-content {
       margin: 0 1.5em 0 1.5em; } }
 
-#billie-wrapper {
-  background-color: #70163C; }
+#caroline-wrapper {
+  background-color: #0C090D; }
 
-#billie-mobile-nav {
+#caroline-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -1320,25 +1320,25 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: #BFC3BA; }
-  #billie-mobile-nav a {
+  #caroline-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #billie-mobile-nav .sidenav .closebtn {
+  #caroline-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #billie-mobile-nav .closebtn {
+  #caroline-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #billie-mobile-nav a {
+  #caroline-mobile-nav a {
     color: #70163C; }
 
-#billie-nav {
+#caroline-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1346,97 +1346,97 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #70163C; }
-  #billie-nav a {
+  background-color: #0C090D; }
+  #caroline-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #billie-nav {
+    #caroline-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #billie-nav a {
+  #caroline-nav a {
     color: #BFC3BA; }
-    #billie-nav a:hover {
+    #caroline-nav a:hover {
       color: black; }
 
-#billie-header {
+#caroline-header {
   margin: 3.5em 2em 3em 3em;
   color: #BFC3BA; }
   @media screen and (max-width: 600px) {
-    #billie-header {
+    #caroline-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #billie-header {
+    #caroline-header {
       margin-top: 0; } }
-  #billie-header h2 {
+  #caroline-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #billie-header .song {
+  #caroline-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #billie-header .song span {
+    #caroline-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #billie-header .song span em {
+      #caroline-header .song span em {
         font-style: italic; }
-  #billie-header .hamburger {
+  #caroline-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #billie-header .hamburger {
+      #caroline-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#billie-content {
+#caroline-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
   color: #BFC3BA; }
-  #billie-content img {
+  #caroline-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #billie-content img {
+      #caroline-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #billie-content img {
+      #caroline-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #billie-content em {
+  #caroline-content em {
     font-style: italic; }
-  #billie-content .info-link {
+  #caroline-content .info-link {
     text-decoration: none; }
-  #billie-content a {
+  #caroline-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #billie-content {
+    #caroline-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #billie-content {
+    #caroline-content {
       margin: 0 1.5em 0 1.5em; } }
-  #billie-content a {
+  #caroline-content a {
     color: #468189; }
-    #billie-content a:hover {
+    #caroline-content a:hover {
       color: black; }
 
 #trane-wrapper {

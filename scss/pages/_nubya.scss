@@ -1,5 +1,5 @@
  #nubya-wrapper {
-  background-color: #8C2155;
+  background-color: $dark-violet;
 }
 
 #nubya-mobile-nav {
@@ -12,9 +12,9 @@
 
 #nubya-nav {
   @include nav;
-  background-color: #8C2155;
+  background-color: $dark-violet;
   a {
-    color: #628395;
+    color: $slate-grey;
     &:hover {
       color: black;
     }
@@ -23,10 +23,10 @@
 
 #nubya-header {
   @include artist-header;
-  color: #628395;
+  color: $slate-grey;
 }
 
 #nubya-content {
   @include content;
-  color: #628395;
+  color: $slate-grey;
 }

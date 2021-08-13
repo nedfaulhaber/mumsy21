@@ -1,5 +1,5 @@
 #elida-wrapper {
-  background-color: $fire-opal;
+  background-color: $dark-sea-green;
 }
 
 #elida-mobile-nav {
@@ -12,7 +12,7 @@
 
 #elida-nav {
   @include nav;
-  background-color: $fire-opal;
+  background-color: $dark-sea-green;
   a {
     color: $black-olive;
     &:hover {
