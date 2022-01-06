@@ -1,8 +1,8 @@
-#maalem-wrapper {
-  background-color: $dark-purple;
+#hania-wrapper {
+  background-color: #333232;
 }
 
-#maalem-mobile-nav {
+#hania-mobile-nav {
   @include mobilenav;
   background-color: $lavender-blue;
   a {
@@ -10,28 +10,28 @@
   }
 }
 
-#maalem-nav {
+#hania-nav {
   @include nav;
-  background-color: $dark-purple;
+  background-color: #333232;
   a {
-    color: $lavender-blue;
+    color: #C8BFC2;
     &:hover {
       color: black;
     }
   }
 }
 
-#maalem-header {
+#hania-header {
   @include artist-header;
-  color: $lavender-blue;
+  color: #C8BFC2;
 }
 
-#maalem-content {
+#hania-content {
   @include content;
-  color: $lavender-blue;
+  color: #C8BFC2;
   // padding-bottom: 10em;
   img {
     @include artist-img;
-    width: 25vw;
+    width: 45vw;
   }
 }

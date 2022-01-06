@@ -142,7 +142,7 @@ body {
   background-color: black; }
 
 #wrapper {
-  background-color: #1D2F6F;
+  background-color: #241E4E;
   padding-bottom: 10em; }
 
 .sidenav {
@@ -182,7 +182,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #1D2F6F; }
+  background-color: #241E4E; }
   #home-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
@@ -193,7 +193,7 @@ body {
       height: 0;
       width: 0; } }
   #home-nav a {
-    color: #F27059; }
+    color: #960200; }
     #home-nav a:hover {
       color: #CA054D; }
 
@@ -211,15 +211,15 @@ body {
   .header h1 {
     margin-bottom: .6em;
     font-family: 'Dosis', sans-serif;
-    text-shadow: 2px 2px 2px #F27059;
+    text-shadow: 2px 2px 2px #960200;
     font-weight: 300;
     font-size: 4.3em; }
   .header a {
-    color: #F27059;
+    color: #FFD046;
     text-decoration: none;
     font-weight: bold; }
     .header a:hover {
-      color: #CA054D; }
+      color: #CE6C47; }
   @media screen and (max-width: 525px) {
     .header {
       padding: 1em 2em 0;
@@ -307,8 +307,9 @@ body {
               width: 100%;
               height: 100%;
               background-color: rgba(0, 0, 0, 0.6); } }
-    .gallery .row #maalem {
-      background-image: url("../img/maalem.png");
+    .gallery .row #hania {
+      background-image: url("../img/hania-dobrawa.png");
+      background-position: 40% 0%;
       background-size: cover; }
     .gallery .row #husker {
       background-image: url("../img/husker1.png");
@@ -366,10 +367,10 @@ body {
       background-position: center;
       background-size: cover; }
 
-#maalem-wrapper {
-  background-color: #3C153B; }
+#hania-wrapper {
+  background-color: #333232; }
 
-#maalem-mobile-nav {
+#hania-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -380,25 +381,25 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: #B3C2F2; }
-  #maalem-mobile-nav a {
+  #hania-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #maalem-mobile-nav .sidenav .closebtn {
+  #hania-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #maalem-mobile-nav .closebtn {
+  #hania-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #maalem-mobile-nav a {
+  #hania-mobile-nav a {
     color: #3C153B; }
 
-#maalem-nav {
+#hania-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -406,106 +407,106 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #3C153B; }
-  #maalem-nav a {
+  background-color: #333232; }
+  #hania-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #maalem-nav {
+    #hania-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #maalem-nav a {
-    color: #B3C2F2; }
-    #maalem-nav a:hover {
+  #hania-nav a {
+    color: #C8BFC2; }
+    #hania-nav a:hover {
       color: black; }
 
-#maalem-header {
+#hania-header {
   margin: 3.5em 2em 3em 3em;
-  color: #B3C2F2; }
+  color: #C8BFC2; }
   @media screen and (max-width: 600px) {
-    #maalem-header {
+    #hania-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #maalem-header {
+    #hania-header {
       margin-top: 0; } }
-  #maalem-header h2 {
+  #hania-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #maalem-header .song {
+  #hania-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #maalem-header .song span {
+    #hania-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #maalem-header .song span em {
+      #hania-header .song span em {
         font-style: italic; }
-  #maalem-header .hamburger {
+  #hania-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #maalem-header .hamburger {
+      #hania-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#maalem-content {
+#hania-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #B3C2F2; }
-  #maalem-content img {
+  color: #C8BFC2; }
+  #hania-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #maalem-content img {
+      #hania-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #maalem-content img {
+      #hania-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #maalem-content em {
+  #hania-content em {
     font-style: italic; }
-  #maalem-content .info-link {
+  #hania-content .info-link {
     text-decoration: none; }
-  #maalem-content a {
+  #hania-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #maalem-content {
+    #hania-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #maalem-content {
+    #hania-content {
       margin: 0 1.5em 0 1.5em; } }
-  #maalem-content img {
+  #hania-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px;
-    width: 25vw; }
+    width: 45vw; }
     @media screen and (max-width: 1024px) {
-      #maalem-content img {
+      #hania-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #maalem-content img {
+      #hania-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
