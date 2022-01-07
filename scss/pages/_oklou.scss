@@ -1,0 +1,32 @@
+#oklou-wrapper {
+  background-color: #22223B;
+}
+
+#oklou-mobile-nav {
+  @include mobilenav;
+  background-color: #DD403A;
+  a {
+    color: #22223B;
+  }
+}
+
+#oklou-nav {
+  @include nav;
+  background-color: #22223B;
+  a {
+    color: #DD403A;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#oklou-header {
+  @include artist-header;
+  color: #DD403A;
+}
+
+#oklou-content {
+  @include content;
+  color: #DD403A;
+}

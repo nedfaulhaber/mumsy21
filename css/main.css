@@ -316,8 +316,8 @@ body {
       background-image: url("../img/高橋國光.png");
       background-position: center;
       background-size: cover; }
-    .gallery .row #midnight {
-      background-image: url("../img/midnight.png");
+    .gallery .row #oklou {
+      background-image: url("../img/oklou_nails.png");
       background-position: 0% 0%;
       background-size: cover; }
     .gallery .row #elida {
@@ -642,10 +642,10 @@ body {
     #osterreich-content {
       margin: 0 1.5em 0 1.5em; } }
 
-#midnight-wrapper {
-  background-color: #000F08; }
+#oklou-wrapper {
+  background-color: #22223B; }
 
-#midnight-mobile-nav {
+#oklou-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -655,26 +655,26 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
-  background-color: #E2CFEA; }
-  #midnight-mobile-nav a {
+  background-color: #DD403A; }
+  #oklou-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #midnight-mobile-nav .sidenav .closebtn {
+  #oklou-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #midnight-mobile-nav .closebtn {
+  #oklou-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #midnight-mobile-nav a {
-    color: #000F08; }
+  #oklou-mobile-nav a {
+    color: #22223B; }
 
-#midnight-nav {
+#oklou-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -682,93 +682,93 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #000F08; }
-  #midnight-nav a {
+  background-color: #22223B; }
+  #oklou-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #midnight-nav {
+    #oklou-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #midnight-nav a {
-    color: #E3D8F1; }
-    #midnight-nav a:hover {
+  #oklou-nav a {
+    color: #DD403A; }
+    #oklou-nav a:hover {
       color: black; }
 
-#midnight-header {
+#oklou-header {
   margin: 3.5em 2em 3em 3em;
-  color: #E3D8F1; }
+  color: #DD403A; }
   @media screen and (max-width: 600px) {
-    #midnight-header {
+    #oklou-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #midnight-header {
+    #oklou-header {
       margin-top: 0; } }
-  #midnight-header h2 {
+  #oklou-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #midnight-header .song {
+  #oklou-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #midnight-header .song span {
+    #oklou-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #midnight-header .song span em {
+      #oklou-header .song span em {
         font-style: italic; }
-  #midnight-header .hamburger {
+  #oklou-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #midnight-header .hamburger {
+      #oklou-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#midnight-content {
+#oklou-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #E3D8F1; }
-  #midnight-content img {
+  color: #DD403A; }
+  #oklou-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #midnight-content img {
+      #oklou-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #midnight-content img {
+      #oklou-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #midnight-content em {
+  #oklou-content em {
     font-style: italic; }
-  #midnight-content .info-link {
+  #oklou-content .info-link {
     text-decoration: none; }
-  #midnight-content a {
+  #oklou-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #midnight-content {
+    #oklou-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #midnight-content {
+    #oklou-content {
       margin: 0 1.5em 0 1.5em; } }
 
 #elida-wrapper {
