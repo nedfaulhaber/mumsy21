@@ -320,8 +320,8 @@ body {
       background-image: url("../img/oklou_nails.png");
       background-position: 0% 0%;
       background-size: cover; }
-    .gallery .row #elida {
-      background-image: url("../img/elida.png");
+    .gallery .row #moses {
+      background-image: url("../img/moses_stairs.png");
       background-position: center;
       background-size: cover; }
     .gallery .row #sophie {
@@ -771,10 +771,10 @@ body {
     #oklou-content {
       margin: 0 1.5em 0 1.5em; } }
 
-#elida-wrapper {
-  background-color: #83B692; }
+#moses-wrapper {
+  background-color: black; }
 
-#elida-mobile-nav {
+#moses-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -784,26 +784,26 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
-  background-color: #BFB5AF; }
-  #elida-mobile-nav a {
+  background-color: white; }
+  #moses-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #elida-mobile-nav .sidenav .closebtn {
+  #moses-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #elida-mobile-nav .closebtn {
+  #moses-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #elida-mobile-nav a {
-    color: wine; }
+  #moses-mobile-nav a {
+    color: white; }
 
-#elida-nav {
+#moses-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -811,107 +811,107 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #83B692; }
-  #elida-nav a {
+  background-color: black; }
+  #moses-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #elida-nav {
+    #moses-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #elida-nav a {
-    color: #37392E; }
-    #elida-nav a:hover {
+  #moses-nav a {
+    color: white; }
+    #moses-nav a:hover {
       color: black; }
 
-#elida-header {
+#moses-header {
   margin: 3.5em 2em 3em 3em;
-  color: #37392E; }
+  color: white; }
   @media screen and (max-width: 600px) {
-    #elida-header {
+    #moses-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #elida-header {
+    #moses-header {
       margin-top: 0; } }
-  #elida-header h2 {
+  #moses-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #elida-header .song {
+  #moses-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #elida-header .song span {
+    #moses-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #elida-header .song span em {
+      #moses-header .song span em {
         font-style: italic; }
-  #elida-header .hamburger {
+  #moses-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #elida-header .hamburger {
+      #moses-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#elida-content {
+#moses-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #37392E; }
-  #elida-content img {
+  color: white; }
+  #moses-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #elida-content img {
+      #moses-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #elida-content img {
+      #moses-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #elida-content em {
+  #moses-content em {
     font-style: italic; }
-  #elida-content .info-link {
+  #moses-content .info-link {
     text-decoration: none; }
-  #elida-content a {
+  #moses-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #elida-content {
+    #moses-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #elida-content {
+    #moses-content {
       margin: 0 1.5em 0 1.5em; } }
-  #elida-content .elji {
+  #moses-content .sam {
     height: auto;
     width: 25vw;
     float: right;
     margin: .5em 0 .6em 1.2em; }
     @media screen and (max-width: 600px) {
-      #elida-content .elji {
+      #moses-content .sam {
         margin-left: 0; } }
     @media screen and (max-width: 1024px) {
-      #elida-content .elji {
+      #moses-content .sam {
         width: 35vw; } }
     @media screen and (max-width: 600px) {
-      #elida-content .elji {
+      #moses-content .sam {
         display: flex;
         margin: 2em 0 2em;
         width: 100%;

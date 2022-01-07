@@ -1,0 +1,35 @@
+#moses-wrapper {
+  background-color: black;
+}
+
+#moses-mobile-nav {
+  @include mobilenav;
+  background-color: white;
+  a {
+    color: white;
+  }
+}
+
+#moses-nav {
+  @include nav;
+  background-color: black;
+  a {
+    color: white;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#moses-header {
+  @include artist-header;
+  color: white;
+}
+
+#moses-content {
+  @include content;
+  color: white;
+  .sam {
+  @include feat-artist;
+  }
+}
