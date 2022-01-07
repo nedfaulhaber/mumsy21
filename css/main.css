@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -311,8 +312,8 @@ body {
       background-image: url("../img/hania-dobrawa.png");
       background-position: 40% 0%;
       background-size: cover; }
-    .gallery .row #husker {
-      background-image: url("../img/husker1.png");
+    .gallery .row #osterreich {
+      background-image: url("../img/高橋國光.png");
       background-position: center;
       background-size: cover; }
     .gallery .row #midnight {
@@ -512,10 +513,10 @@ body {
         width: 100%;
         float: none; } }
 
-#husker-wrapper {
+#osterreich-wrapper {
   background-color: #6B0F1A; }
 
-#husker-mobile-nav {
+#osterreich-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -526,25 +527,25 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: #EAE0D5; }
-  #husker-mobile-nav a {
+  #osterreich-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #husker-mobile-nav .sidenav .closebtn {
+  #osterreich-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #husker-mobile-nav .closebtn {
+  #osterreich-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #husker-mobile-nav a {
+  #osterreich-mobile-nav a {
     color: #2E86AB; }
 
-#husker-nav {
+#osterreich-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -553,92 +554,92 @@ body {
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
   background-color: #6B0F1A; }
-  #husker-nav a {
+  #osterreich-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #husker-nav {
+    #osterreich-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #husker-nav a {
+  #osterreich-nav a {
     color: #EAE0D5; }
-    #husker-nav a:hover {
+    #osterreich-nav a:hover {
       color: black; }
 
-#husker-header {
+#osterreich-header {
   margin: 3.5em 2em 3em 3em;
   color: #EAE0D5; }
   @media screen and (max-width: 600px) {
-    #husker-header {
+    #osterreich-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #husker-header {
+    #osterreich-header {
       margin-top: 0; } }
-  #husker-header h2 {
+  #osterreich-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #husker-header .song {
+  #osterreich-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #husker-header .song span {
+    #osterreich-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #husker-header .song span em {
+      #osterreich-header .song span em {
         font-style: italic; }
-  #husker-header .hamburger {
+  #osterreich-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #husker-header .hamburger {
+      #osterreich-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#husker-content {
+#osterreich-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
   color: #EAE0D5; }
-  #husker-content img {
+  #osterreich-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #husker-content img {
+      #osterreich-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #husker-content img {
+      #osterreich-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #husker-content em {
+  #osterreich-content em {
     font-style: italic; }
-  #husker-content .info-link {
+  #osterreich-content .info-link {
     text-decoration: none; }
-  #husker-content a {
+  #osterreich-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #husker-content {
+    #osterreich-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #husker-content {
+    #osterreich-content {
       margin: 0 1.5em 0 1.5em; } }
 
 #midnight-wrapper {

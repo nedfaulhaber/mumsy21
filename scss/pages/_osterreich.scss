@@ -1,8 +1,8 @@
-#husker-wrapper {
+#osterreich-wrapper {
   background-color: $persian-plum;
 }
 
-#husker-mobile-nav {
+#osterreich-mobile-nav {
   @include mobilenav;
   background-color: $almond;
   a {
@@ -10,7 +10,7 @@
   }
 }
 
-#husker-nav {
+#osterreich-nav {
   @include nav;
   background-color: $persian-plum;
   a {
@@ -21,12 +21,12 @@
   }
 }
 
-#husker-header {
+#osterreich-header {
   @include artist-header;
   color: $almond;
 }
 
-#husker-content {
+#osterreich-content {
   @include content;
   color: $almond;
 }
