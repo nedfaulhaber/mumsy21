@@ -772,7 +772,7 @@ body {
       margin: 0 1.5em 0 1.5em; } }
 
 #moses-wrapper {
-  background-color: black; }
+  background-color: #CEB992; }
 
 #moses-mobile-nav {
   height: 100%;
@@ -801,7 +801,7 @@ body {
     font-size: 4em;
     padding-left: .75em; }
   #moses-mobile-nav a {
-    color: white; }
+    color: #CEB992; }
 
 #moses-nav {
   display: flex;
@@ -811,7 +811,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: black; }
+  background-color: #CEB992; }
   #moses-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
@@ -822,13 +822,13 @@ body {
       height: 0;
       width: 0; } }
   #moses-nav a {
-    color: white; }
+    color: #4D7C8A; }
     #moses-nav a:hover {
       color: black; }
 
 #moses-header {
   margin: 3.5em 2em 3em 3em;
-  color: white; }
+  color: #4D7C8A; }
   @media screen and (max-width: 600px) {
     #moses-header {
       display: flex;
@@ -868,7 +868,7 @@ body {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: white; }
+  color: #4D7C8A; }
   #moses-content img {
     height: auto;
     width: 35vw;

@@ -1,20 +1,20 @@
 #moses-wrapper {
-  background-color: black;
+  background-color: #CEB992;
 }
 
 #moses-mobile-nav {
   @include mobilenav;
   background-color: white;
   a {
-    color: white;
+    color: #CEB992;
   }
 }
 
 #moses-nav {
   @include nav;
-  background-color: black;
+  background-color: #CEB992;
   a {
-    color: white;
+    color: #4D7C8A;
     &:hover {
       color: black;
     }
@@ -23,12 +23,12 @@
 
 #moses-header {
   @include artist-header;
-  color: white;
+  color: #4D7C8A;
 }
 
 #moses-content {
   @include content;
-  color: white;
+  color: #4D7C8A;
   .sam {
   @include feat-artist;
   }
