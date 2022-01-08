@@ -1,18 +1,18 @@
-#orville-wrapper {
-  background-color: $english-violet;
+#animals-wrapper {
+  background-color: #45062E;
 }
 
-#orville-mobile-nav {
+#animals-mobile-nav {
   @include mobilenav;
-  background-color: $english-violet;
+  background-color: #45062E;
   a {
     color: $jet;
   }
 }
 
-#orville-nav {
+#animals-nav {
   @include nav;
-  background-color: $english-violet;
+  background-color: #45062E;
   a {
     color: #88A09E;
     &:hover {
@@ -21,12 +21,12 @@
   }
 }
 
-#orville-header {
+#animals-header {
   @include artist-header;
   color: #88A09E;
 }
 
-#orville-content {
+#animals-content {
   @include content;
   color: #88A09E;
 }

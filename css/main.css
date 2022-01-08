@@ -327,9 +327,9 @@ body {
     .gallery .row #chloe {
       background-image: url("../img/chloe.png");
       background-size: cover; }
-    .gallery .row #orville {
-      background-image: url("../img/orville.png");
-      background-position: 0% 0%;
+    .gallery .row #animals {
+      background-image: url("../img/animals-as-leaders.png");
+      background-position: 35% 0%;
       background-size: cover; }
     .gallery .row #nubya {
       background-image: url("../img/nubya.png");
@@ -1050,10 +1050,10 @@ body {
     #chloe-content a:hover {
       color: black; }
 
-#orville-wrapper {
-  background-color: #3A3042; }
+#animals-wrapper {
+  background-color: #45062E; }
 
-#orville-mobile-nav {
+#animals-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -1063,26 +1063,26 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
-  background-color: #3A3042; }
-  #orville-mobile-nav a {
+  background-color: #45062E; }
+  #animals-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #orville-mobile-nav .sidenav .closebtn {
+  #animals-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #orville-mobile-nav .closebtn {
+  #animals-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #orville-mobile-nav a {
+  #animals-mobile-nav a {
     color: #353535; }
 
-#orville-nav {
+#animals-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1090,93 +1090,93 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #3A3042; }
-  #orville-nav a {
+  background-color: #45062E; }
+  #animals-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #orville-nav {
+    #animals-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #orville-nav a {
+  #animals-nav a {
     color: #88A09E; }
-    #orville-nav a:hover {
+    #animals-nav a:hover {
       color: black; }
 
-#orville-header {
+#animals-header {
   margin: 3.5em 2em 3em 3em;
   color: #88A09E; }
   @media screen and (max-width: 600px) {
-    #orville-header {
+    #animals-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #orville-header {
+    #animals-header {
       margin-top: 0; } }
-  #orville-header h2 {
+  #animals-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #orville-header .song {
+  #animals-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #orville-header .song span {
+    #animals-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #orville-header .song span em {
+      #animals-header .song span em {
         font-style: italic; }
-  #orville-header .hamburger {
+  #animals-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #orville-header .hamburger {
+      #animals-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#orville-content {
+#animals-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
   color: #88A09E; }
-  #orville-content img {
+  #animals-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #orville-content img {
+      #animals-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #orville-content img {
+      #animals-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #orville-content em {
+  #animals-content em {
     font-style: italic; }
-  #orville-content .info-link {
+  #animals-content .info-link {
     text-decoration: none; }
-  #orville-content a {
+  #animals-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #orville-content {
+    #animals-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #orville-content {
+    #animals-content {
       margin: 0 1.5em 0 1.5em; } }
 
 #nubya-wrapper {
