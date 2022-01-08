@@ -324,8 +324,8 @@ body {
       background-image: url("../img/moses_stairs.png");
       background-position: center;
       background-size: cover; }
-    .gallery .row #sophie {
-      background-image: url("../img/sophie.png");
+    .gallery .row #chloe {
+      background-image: url("../img/chloe.png");
       background-size: cover; }
     .gallery .row #orville {
       background-image: url("../img/orville.png");
@@ -772,7 +772,7 @@ body {
       margin: 0 1.5em 0 1.5em; } }
 
 #moses-wrapper {
-  background-color: #CEB992; }
+  background-color: black; }
 
 #moses-mobile-nav {
   height: 100%;
@@ -801,7 +801,7 @@ body {
     font-size: 4em;
     padding-left: .75em; }
   #moses-mobile-nav a {
-    color: #CEB992; }
+    color: black; }
 
 #moses-nav {
   display: flex;
@@ -811,7 +811,7 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #CEB992; }
+  background-color: black; }
   #moses-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
@@ -917,10 +917,10 @@ body {
         width: 100%;
         float: none; } }
 
-#sophie-wrapper {
+#chloe-wrapper {
   background-color: #1B264F; }
 
-#sophie-mobile-nav {
+#chloe-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -931,25 +931,25 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: #EEF2F2; }
-  #sophie-mobile-nav a {
+  #chloe-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #sophie-mobile-nav .sidenav .closebtn {
+  #chloe-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #sophie-mobile-nav .closebtn {
+  #chloe-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #sophie-mobile-nav a {
+  #chloe-mobile-nav a {
     color: #1B264F; }
 
-#sophie-nav {
+#chloe-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -958,96 +958,96 @@ body {
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
   background-color: #1B264F; }
-  #sophie-nav a {
+  #chloe-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #sophie-nav {
+    #chloe-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #sophie-nav a {
+  #chloe-nav a {
     color: #EEF2F2; }
-    #sophie-nav a:hover {
+    #chloe-nav a:hover {
       color: black; }
 
-#sophie-header {
+#chloe-header {
   margin: 3.5em 2em 3em 3em;
   color: #EEF2F2; }
   @media screen and (max-width: 600px) {
-    #sophie-header {
+    #chloe-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #sophie-header {
+    #chloe-header {
       margin-top: 0; } }
-  #sophie-header h2 {
+  #chloe-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #sophie-header .song {
+  #chloe-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #sophie-header .song span {
+    #chloe-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #sophie-header .song span em {
+      #chloe-header .song span em {
         font-style: italic; }
-  #sophie-header .hamburger {
+  #chloe-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #sophie-header .hamburger {
+      #chloe-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#sophie-content {
+#chloe-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
   color: #EEF2F2; }
-  #sophie-content img {
+  #chloe-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #sophie-content img {
+      #chloe-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #sophie-content img {
+      #chloe-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #sophie-content em {
+  #chloe-content em {
     font-style: italic; }
-  #sophie-content .info-link {
+  #chloe-content .info-link {
     text-decoration: none; }
-  #sophie-content a {
+  #chloe-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #sophie-content {
+    #chloe-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #sophie-content {
+    #chloe-content {
       margin: 0 1.5em 0 1.5em; } }
-  #sophie-content a {
+  #chloe-content a {
     color: #468189; }
-    #sophie-content a:hover {
+    #chloe-content a:hover {
       color: black; }
 
 #orville-wrapper {

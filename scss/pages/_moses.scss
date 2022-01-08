@@ -1,18 +1,18 @@
 #moses-wrapper {
-  background-color: #CEB992;
+  background-color: black;
 }
 
 #moses-mobile-nav {
   @include mobilenav;
   background-color: white;
   a {
-    color: #CEB992;
+    color: black;
   }
 }
 
 #moses-nav {
   @include nav;
-  background-color: #CEB992;
+  background-color: black;
   a {
     color: #4D7C8A;
     &:hover {

@@ -1,8 +1,8 @@
-#sophie-wrapper {
+#chloe-wrapper {
   background-color: $space-cadet;
 }
 
-#sophie-mobile-nav {
+#chloe-mobile-nav {
   @include mobilenav;
   background-color: $anti-flash-white;
   a {
@@ -10,7 +10,7 @@
   }
 }
 
-#sophie-nav {
+#chloe-nav {
   @include nav;
   background-color: $space-cadet;
   a {
@@ -21,12 +21,12 @@
   }
 }
 
-#sophie-header {
+#chloe-header {
   @include artist-header;
   color: $anti-flash-white;
 }
 
-#sophie-content {
+#chloe-content {
   @include content;
   color: $anti-flash-white;
   a {
