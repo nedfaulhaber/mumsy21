@@ -339,8 +339,8 @@ body {
       background-image: url("../img/number1popstar.png");
       background-position: center;
       background-size: cover; }
-    .gallery .row #ferg {
-      background-image: url("../img/ferg2.png");
+    .gallery .row #lajoaqui {
+      background-image: url("../img/la-joaqui-lgante.png");
       background-position: center;
       background-size: cover; }
     .gallery .row #weirdal {
@@ -1441,10 +1441,10 @@ body {
     #number1-content a:hover {
       color: black; }
 
-#trane-wrapper {
-  background-color: #39304A; }
+#lajoaqui-wrapper {
+  background-color: #223127; }
 
-#trane-mobile-nav {
+#lajoaqui-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -1455,25 +1455,25 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: #EFF6EE; }
-  #trane-mobile-nav a {
+  #lajoaqui-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #trane-mobile-nav .sidenav .closebtn {
+  #lajoaqui-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #trane-mobile-nav .closebtn {
+  #lajoaqui-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #trane-mobile-nav a {
-    color: #39304A; }
+  #lajoaqui-mobile-nav a {
+    color: #223127; }
 
-#trane-nav {
+#lajoaqui-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1481,133 +1481,107 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #39304A; }
-  #trane-nav a {
+  background-color: #223127; }
+  #lajoaqui-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #trane-nav {
+    #lajoaqui-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #trane-nav a {
+  #lajoaqui-nav a {
     color: #EFF6EE; }
-    #trane-nav a:hover {
+    #lajoaqui-nav a:hover {
       color: black; }
 
-#trane-header {
+#lajoaqui-header {
   margin: 3.5em 2em 3em 3em;
-  color: #F3EEE7; }
+  color: #EFF6EE; }
   @media screen and (max-width: 600px) {
-    #trane-header {
+    #lajoaqui-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #trane-header {
+    #lajoaqui-header {
       margin-top: 0; } }
-  #trane-header h2 {
+  #lajoaqui-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #trane-header .song {
+  #lajoaqui-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #trane-header .song span {
+    #lajoaqui-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #trane-header .song span em {
+      #lajoaqui-header .song span em {
         font-style: italic; }
-  #trane-header .hamburger {
+  #lajoaqui-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #trane-header .hamburger {
+      #lajoaqui-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#trane-content {
+#lajoaqui-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #F3EEE7; }
-  #trane-content img {
+  color: #EFF6EE; }
+  #lajoaqui-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #trane-content img {
+      #lajoaqui-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #trane-content img {
+      #lajoaqui-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #trane-content em {
+  #lajoaqui-content em {
     font-style: italic; }
-  #trane-content .info-link {
+  #lajoaqui-content .info-link {
     text-decoration: none; }
-  #trane-content a {
+  #lajoaqui-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #trane-content {
+    #lajoaqui-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #trane-content {
+    #lajoaqui-content {
       margin: 0 1.5em 0 1.5em; } }
-  #trane-content #quartet {
+  #lajoaqui-content #l-gante {
     height: auto;
     width: 25vw;
     float: right;
-    margin: .5em 0 .6em 1.2em;
-    width: 25vw; }
+    margin: .5em 0 .6em 1.2em; }
     @media screen and (max-width: 600px) {
-      #trane-content #quartet {
+      #lajoaqui-content #l-gante {
         margin-left: 0; } }
     @media screen and (max-width: 1024px) {
-      #trane-content #quartet {
+      #lajoaqui-content #l-gante {
         width: 35vw; } }
     @media screen and (max-width: 600px) {
-      #trane-content #quartet {
-        display: flex;
-        margin: 2em 0 2em;
-        width: 100%;
-        float: none; } }
-    @media screen and (max-width: 600px) {
-      #trane-content #quartet {
-        display: flex;
-        margin: 2em 0 2em;
-        width: 70%;
-        float: none; } }
-  #trane-content #quartet_live {
-    height: auto;
-    width: 25vw;
-    float: right;
-    margin: .5em 0 .6em 1.2em;
-    float: left;
-    margin: .5em 1.2em .5em 0; }
-    @media screen and (max-width: 600px) {
-      #trane-content #quartet_live {
-        margin-left: 0; } }
-    @media screen and (max-width: 1024px) {
-      #trane-content #quartet_live {
-        width: 35vw; } }
-    @media screen and (max-width: 600px) {
-      #trane-content #quartet_live {
+      #lajoaqui-content #l-gante {
         display: flex;
         margin: 2em 0 2em;
         width: 100%;

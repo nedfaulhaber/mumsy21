@@ -1,0 +1,42 @@
+#lajoaqui-wrapper {
+  background-color: #223127;
+}
+
+#lajoaqui-mobile-nav {
+  @include mobilenav;
+  background-color: $honeydew;
+  a {
+    color: #223127;
+  }
+}
+
+#lajoaqui-nav {
+  @include nav;
+  background-color: #223127;
+  a {
+    color: $honeydew;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#lajoaqui-header {
+  @include artist-header;
+  color: $honeydew;
+}
+
+#lajoaqui-content {
+  @include content;
+  color: $honeydew;
+  #l-gante {
+    @include feat-artist;
+    // width: 25vw;
+    // @media screen and (max-width: 600px) {
+    //   display: flex;
+    //   margin: 2em 0 2em;
+    //   width: 70%;
+    //   float: none;
+    // }
+  }
+}
