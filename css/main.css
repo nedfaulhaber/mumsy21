@@ -335,8 +335,8 @@ body {
       background-image: url("../img/porches.png");
       background-position: center;
       background-size: cover; }
-    .gallery .row #caroline {
-      background-image: url("../img/caroline2.png");
+    .gallery .row #number1 {
+      background-image: url("../img/number1popstar.png");
       background-position: center;
       background-size: cover; }
     .gallery .row #ferg {
@@ -1308,10 +1308,10 @@ body {
     #porches-content {
       margin: 0 1.5em 0 1.5em; } }
 
-#caroline-wrapper {
+#number1-wrapper {
   background-color: #0C090D; }
 
-#caroline-mobile-nav {
+#number1-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -1322,25 +1322,25 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: #BFC3BA; }
-  #caroline-mobile-nav a {
+  #number1-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #caroline-mobile-nav .sidenav .closebtn {
+  #number1-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #caroline-mobile-nav .closebtn {
+  #number1-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #caroline-mobile-nav a {
+  #number1-mobile-nav a {
     color: #70163C; }
 
-#caroline-nav {
+#number1-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1349,96 +1349,96 @@ body {
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
   background-color: #0C090D; }
-  #caroline-nav a {
+  #number1-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #caroline-nav {
+    #number1-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #caroline-nav a {
+  #number1-nav a {
     color: #BFC3BA; }
-    #caroline-nav a:hover {
+    #number1-nav a:hover {
       color: black; }
 
-#caroline-header {
+#number1-header {
   margin: 3.5em 2em 3em 3em;
   color: #BFC3BA; }
   @media screen and (max-width: 600px) {
-    #caroline-header {
+    #number1-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #caroline-header {
+    #number1-header {
       margin-top: 0; } }
-  #caroline-header h2 {
+  #number1-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #caroline-header .song {
+  #number1-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #caroline-header .song span {
+    #number1-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #caroline-header .song span em {
+      #number1-header .song span em {
         font-style: italic; }
-  #caroline-header .hamburger {
+  #number1-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #caroline-header .hamburger {
+      #number1-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#caroline-content {
+#number1-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
   color: #BFC3BA; }
-  #caroline-content img {
+  #number1-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #caroline-content img {
+      #number1-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #caroline-content img {
+      #number1-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #caroline-content em {
+  #number1-content em {
     font-style: italic; }
-  #caroline-content .info-link {
+  #number1-content .info-link {
     text-decoration: none; }
-  #caroline-content a {
+  #number1-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #caroline-content {
+    #number1-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #caroline-content {
+    #number1-content {
       margin: 0 1.5em 0 1.5em; } }
-  #caroline-content a {
+  #number1-content a {
     color: #468189; }
-    #caroline-content a:hover {
+    #number1-content a:hover {
       color: black; }
 
 #trane-wrapper {

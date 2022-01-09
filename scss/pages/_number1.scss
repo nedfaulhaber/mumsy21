@@ -1,8 +1,8 @@
-#caroline-wrapper {
+#number1-wrapper {
   background-color: $rich-black-fogra39;
 }
 
-#caroline-mobile-nav {
+#number1-mobile-nav {
   @include mobilenav;
   background-color: $silver;
   a {
@@ -10,7 +10,7 @@
   }
 }
 
-#caroline-nav {
+#number1-nav {
   @include nav;
   background-color: $rich-black-fogra39;
   a {
@@ -21,12 +21,12 @@
   }
 }
 
-#caroline-header {
+#number1-header {
   @include artist-header;
   color: $silver;
 }
 
-#caroline-content {
+#number1-content {
   @include content;
   color: $silver;
   a {
