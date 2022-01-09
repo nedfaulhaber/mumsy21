@@ -1,0 +1,32 @@
+ #porches-wrapper {
+  background-color: #423E37;
+}
+
+#porches-mobile-nav {
+  @include mobilenav;
+  background-color: #D7D7D9;
+  a {
+    color: #423E37;
+  }
+}
+
+#porches-nav {
+  @include nav;
+  background-color: #423E37;
+  a {
+    color: #D7D7D9;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#porches-header {
+  @include artist-header;
+  color: #D7D7D9;
+}
+
+#porches-content {
+  @include content;
+  color: #D7D7D9;
+}
