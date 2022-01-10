@@ -1,0 +1,32 @@
+#remi-wrapper {
+  background-color: #3D5A80;
+}
+
+#remi-mobile-nav {
+  @include mobilenav;
+  background-color: #98C1D9;
+  a {
+    color: #3D5A80;
+  }
+}
+
+#remi-nav {
+  @include nav;
+  background-color: #3D5A80;
+  a {
+    color: #98C1D9;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#remi-header {
+  @include artist-header;
+  color: #98C1D9;
+}
+
+#remi-content {
+  @include content;
+  color: #98C1D9;
+}
