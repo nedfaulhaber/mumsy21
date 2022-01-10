@@ -1,0 +1,35 @@
+#terje-wrapper {
+  background-color: #443742;
+}
+
+#terje-mobile-nav {
+  @include mobilenav;
+  background-color: #98C1D9;
+  a {
+    color: #443742;
+  }
+}
+
+#terje-nav {
+  @include nav;
+  background-color: #443742;
+  a {
+    color: #98C1D9;
+    &:hover {
+      color: #443742;
+    }
+  }
+}
+
+#terje-header {
+  @include artist-header;
+  color: #98C1D9;
+}
+
+#terje-content {
+  @include content;
+  color: #98C1D9;
+  .ferry {
+  @include feat-artist;
+  }
+}

@@ -351,8 +351,8 @@ body {
       background-image: url("../img/remi.png");
       background-position: 30% 0%;
       background-size: cover; }
-    .gallery .row #zappa {
-      background-image: url("../img/zappa.png");
+    .gallery .row #terje {
+      background-image: url("../img/terje.png");
       background-position: center;
       background-size: cover; }
     .gallery .row #rodwave {
@@ -1845,10 +1845,10 @@ body {
     #remi-content {
       margin: 0 1.5em 0 1.5em; } }
 
-#twigs-wrapper {
-  background-color: black; }
+#terje-wrapper {
+  background-color: #443742; }
 
-#twigs-mobile-nav {
+#terje-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -1858,26 +1858,26 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
-  background-color: #79B473; }
-  #twigs-mobile-nav a {
+  background-color: #98C1D9; }
+  #terje-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #twigs-mobile-nav .sidenav .closebtn {
+  #terje-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #twigs-mobile-nav .closebtn {
+  #terje-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #twigs-mobile-nav a {
-    color: black; }
+  #terje-mobile-nav a {
+    color: #443742; }
 
-#twigs-nav {
+#terje-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1885,94 +1885,111 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: black; }
-  #twigs-nav a {
+  background-color: #443742; }
+  #terje-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #twigs-nav {
+    #terje-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #twigs-nav a {
-    color: #79B473; }
-    #twigs-nav a:hover {
-      color: black; }
+  #terje-nav a {
+    color: #98C1D9; }
+    #terje-nav a:hover {
+      color: #443742; }
 
-#twigs-header {
+#terje-header {
   margin: 3.5em 2em 3em 3em;
-  color: #79B473; }
+  color: #98C1D9; }
   @media screen and (max-width: 600px) {
-    #twigs-header {
+    #terje-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #twigs-header {
+    #terje-header {
       margin-top: 0; } }
-  #twigs-header h2 {
+  #terje-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #twigs-header .song {
+  #terje-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #twigs-header .song span {
+    #terje-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #twigs-header .song span em {
+      #terje-header .song span em {
         font-style: italic; }
-  #twigs-header .hamburger {
+  #terje-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #twigs-header .hamburger {
+      #terje-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#twigs-content {
+#terje-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #79B473; }
-  #twigs-content img {
+  color: #98C1D9; }
+  #terje-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #twigs-content img {
+      #terje-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #twigs-content img {
+      #terje-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #twigs-content em {
+  #terje-content em {
     font-style: italic; }
-  #twigs-content .info-link {
+  #terje-content .info-link {
     text-decoration: none; }
-  #twigs-content a {
+  #terje-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #twigs-content {
+    #terje-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #twigs-content {
+    #terje-content {
       margin: 0 1.5em 0 1.5em; } }
+  #terje-content .ferry {
+    height: auto;
+    width: 25vw;
+    float: right;
+    margin: .5em 0 .6em 1.2em; }
+    @media screen and (max-width: 600px) {
+      #terje-content .ferry {
+        margin-left: 0; } }
+    @media screen and (max-width: 1024px) {
+      #terje-content .ferry {
+        width: 35vw; } }
+    @media screen and (max-width: 600px) {
+      #terje-content .ferry {
+        display: flex;
+        margin: 2em 0 2em;
+        width: 100%;
+        float: none; } }
 
 #juice-wrapper {
   background-color: #CA054D; }
