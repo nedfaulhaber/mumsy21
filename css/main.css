@@ -343,8 +343,8 @@ body {
       background-image: url("../img/la-joaqui-lgante.png");
       background-position: center;
       background-size: cover; }
-    .gallery .row #weirdal {
-      background-image: url("../img/weirdal2.png");
+    .gallery .row #golden {
+      background-image: url("../img/ggjq.png");
       background-position: 35% 0%;
       background-size: cover; }
     .gallery .row #sodycave {
@@ -1587,10 +1587,10 @@ body {
         width: 100%;
         float: none; } }
 
-#lana-wrapper {
-  background-color: #031926; }
+#golden-wrapper {
+  background-color: #605770; }
 
-#lana-mobile-nav {
+#golden-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -1600,26 +1600,26 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
-  background-color: #468189; }
-  #lana-mobile-nav a {
+  background-color: #CDCDCD; }
+  #golden-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #lana-mobile-nav .sidenav .closebtn {
+  #golden-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #lana-mobile-nav .closebtn {
+  #golden-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #lana-mobile-nav a {
-    color: #031926; }
+  #golden-mobile-nav a {
+    color: #605770; }
 
-#lana-nav {
+#golden-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1627,102 +1627,93 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #031926; }
-  #lana-nav a {
+  background-color: #605770; }
+  #golden-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #lana-nav {
+    #golden-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #lana-nav a {
-    color: #468189; }
-    #lana-nav a:hover {
+  #golden-nav a {
+    color: #CDCDCD; }
+    #golden-nav a:hover {
       color: black; }
 
-#lana-header {
+#golden-header {
   margin: 3.5em 2em 3em 3em;
-  color: #468189; }
+  color: #CDCDCD; }
   @media screen and (max-width: 600px) {
-    #lana-header {
+    #golden-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #lana-header {
+    #golden-header {
       margin-top: 0; } }
-  #lana-header h2 {
+  #golden-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #lana-header .song {
+  #golden-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #lana-header .song span {
+    #golden-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #lana-header .song span em {
+      #golden-header .song span em {
         font-style: italic; }
-  #lana-header .hamburger {
+  #golden-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #lana-header .hamburger {
+      #golden-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
-  #lana-header #hope {
-    line-height: 1.2em; }
-    @media screen and (max-width: 850px) {
-      #lana-header #hope {
-        margin-right: 2em; } }
-    @media screen and (max-width: 600px) {
-      #lana-header #hope {
-        text-align: center;
-        margin: 0 2em 0; } }
 
-#lana-content {
+#golden-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #468189; }
-  #lana-content img {
+  color: #CDCDCD; }
+  #golden-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #lana-content img {
+      #golden-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #lana-content img {
+      #golden-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #lana-content em {
+  #golden-content em {
     font-style: italic; }
-  #lana-content .info-link {
+  #golden-content .info-link {
     text-decoration: none; }
-  #lana-content a {
+  #golden-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #lana-content {
+    #golden-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #lana-content {
+    #golden-content {
       margin: 0 1.5em 0 1.5em; } }
 
 #toro-wrapper {

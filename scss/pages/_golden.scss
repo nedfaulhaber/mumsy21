@@ -1,0 +1,32 @@
+#golden-wrapper {
+  background-color: #605770;
+}
+
+#golden-mobile-nav {
+  @include mobilenav;
+  background-color: #CDCDCD;
+  a {
+    color: #605770;
+  }
+}
+
+#golden-nav {
+  @include nav;
+  background-color: #605770;
+  a {
+    color: #CDCDCD;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#golden-header {
+  @include artist-header;
+  color: #CDCDCD;
+}
+
+#golden-content {
+  @include content;
+  color: #CDCDCD;
+}
