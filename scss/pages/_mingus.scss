@@ -1,0 +1,32 @@
+#mingus-wrapper {
+  background-color: #A0A0A0;
+}
+
+#mingus-mobile-nav {
+  @include mobilenav;
+  background-color: #4F000B;
+  a {
+    color: #A0A0A0;
+  }
+}
+
+#mingus-nav {
+  @include nav;
+  background-color: #A0A0A0;
+  a {
+    color: #4F000B;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+#mingus-header {
+  @include artist-header;
+  color: #4F000B;
+}
+
+#mingus-content {
+  @include content;
+  color: #4F000B;
+}

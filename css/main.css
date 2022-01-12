@@ -355,8 +355,8 @@ body {
       background-image: url("../img/terje.png");
       background-position: center;
       background-size: cover; }
-    .gallery .row #rodwave {
-      background-image: url("../img/rodwave.png");
+    .gallery .row #mingus {
+      background-image: url("../img/mingus_beige.png");
       background-position: center;
       background-size: cover; }
     .gallery .row #daftpunk {
@@ -1991,10 +1991,10 @@ body {
         width: 100%;
         float: none; } }
 
-#juice-wrapper {
-  background-color: #CA054D; }
+#mingus-wrapper {
+  background-color: #A0A0A0; }
 
-#juice-mobile-nav {
+#mingus-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -2004,26 +2004,26 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
-  background-color: #FCB0B3; }
-  #juice-mobile-nav a {
+  background-color: #4F000B; }
+  #mingus-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #juice-mobile-nav .sidenav .closebtn {
+  #mingus-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #juice-mobile-nav .closebtn {
+  #mingus-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #juice-mobile-nav a {
-    color: #CA054D; }
+  #mingus-mobile-nav a {
+    color: #A0A0A0; }
 
-#juice-nav {
+#mingus-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2031,98 +2031,94 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #CA054D; }
-  #juice-nav a {
+  background-color: #A0A0A0; }
+  #mingus-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #juice-nav {
+    #mingus-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #juice-nav a {
-    color: #FCB0B3; }
-    #juice-nav a:hover {
+  #mingus-nav a {
+    color: #4F000B; }
+    #mingus-nav a:hover {
       color: black; }
 
-#juice-header {
+#mingus-header {
   margin: 3.5em 2em 3em 3em;
-  color: #FCB0B3; }
+  color: #4F000B; }
   @media screen and (max-width: 600px) {
-    #juice-header {
+    #mingus-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #juice-header {
+    #mingus-header {
       margin-top: 0; } }
-  #juice-header h2 {
+  #mingus-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #juice-header .song {
+  #mingus-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #juice-header .song span {
+    #mingus-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #juice-header .song span em {
+      #mingus-header .song span em {
         font-style: italic; }
-  #juice-header .hamburger {
+  #mingus-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #juice-header .hamburger {
+      #mingus-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#juice-content {
+#mingus-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #FCB0B3; }
-  #juice-content img {
+  color: #4F000B; }
+  #mingus-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #juice-content img {
+      #mingus-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #juice-content img {
+      #mingus-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #juice-content em {
+  #mingus-content em {
     font-style: italic; }
-  #juice-content .info-link {
+  #mingus-content .info-link {
     text-decoration: none; }
-  #juice-content a {
+  #mingus-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #juice-content {
+    #mingus-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #juice-content {
+    #mingus-content {
       margin: 0 1.5em 0 1.5em; } }
-  #juice-content a {
-    color: #031926; }
-    #juice-content a:hover {
-      color: #2E86AB; }
 
 #nils-wrapper {
   background-color: #3C1518; }
