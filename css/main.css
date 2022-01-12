@@ -359,8 +359,8 @@ body {
       background-image: url("../img/mingus_beige.png");
       background-position: center;
       background-size: cover; }
-    .gallery .row #daftpunk {
-      background-image: url("../img/daftpunk.png");
+    .gallery .row #bazan {
+      background-image: url("../img/bazan.png");
       background-position: center;
       background-size: cover; }
     .gallery .row #max {
@@ -2120,10 +2120,10 @@ body {
     #mingus-content {
       margin: 0 1.5em 0 1.5em; } }
 
-#nils-wrapper {
+#bazan-wrapper {
   background-color: #3C1518; }
 
-#nils-mobile-nav {
+#bazan-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -2134,25 +2134,25 @@ body {
   transition: 0.5s;
   padding-top: 3.75em;
   background-color: #7DAA92; }
-  #nils-mobile-nav a {
+  #bazan-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #nils-mobile-nav .sidenav .closebtn {
+  #bazan-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #nils-mobile-nav .closebtn {
+  #bazan-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #nils-mobile-nav a {
+  #bazan-mobile-nav a {
     color: #3C1518; }
 
-#nils-nav {
+#bazan-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2161,92 +2161,92 @@ body {
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
   background-color: #3C1518; }
-  #nils-nav a {
+  #bazan-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #nils-nav {
+    #bazan-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #nils-nav a {
+  #bazan-nav a {
     color: #7DAA92; }
-    #nils-nav a:hover {
+    #bazan-nav a:hover {
       color: black; }
 
-#nils-header {
+#bazan-header {
   margin: 3.5em 2em 3em 3em;
   color: #7DAA92; }
   @media screen and (max-width: 600px) {
-    #nils-header {
+    #bazan-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #nils-header {
+    #bazan-header {
       margin-top: 0; } }
-  #nils-header h2 {
+  #bazan-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #nils-header .song {
+  #bazan-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #nils-header .song span {
+    #bazan-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #nils-header .song span em {
+      #bazan-header .song span em {
         font-style: italic; }
-  #nils-header .hamburger {
+  #bazan-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #nils-header .hamburger {
+      #bazan-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#nils-content {
+#bazan-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
   color: #7DAA92; }
-  #nils-content img {
+  #bazan-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #nils-content img {
+      #bazan-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #nils-content img {
+      #bazan-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #nils-content em {
+  #bazan-content em {
     font-style: italic; }
-  #nils-content .info-link {
+  #bazan-content .info-link {
     text-decoration: none; }
-  #nils-content a {
+  #bazan-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #nils-content {
+    #bazan-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #nils-content {
+    #bazan-content {
       margin: 0 1.5em 0 1.5em; } }
 
 #rush2-wrapper {

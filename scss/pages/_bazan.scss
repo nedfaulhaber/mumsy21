@@ -1,8 +1,8 @@
-#nils-wrapper {
+#bazan-wrapper {
   background-color: $dark-sienna;
 }
 
-#nils-mobile-nav {
+#bazan-mobile-nav {
   @include mobilenav;
   background-color: $green-sheen;
   a {
@@ -10,7 +10,7 @@
   }
 }
 
-#nils-nav {
+#bazan-nav {
   @include nav;
   background-color: $dark-sienna;
   a {
@@ -21,12 +21,12 @@
   }
 }
 
-#nils-header {
+#bazan-header {
   @include artist-header;
   color: $green-sheen;
 }
 
-#nils-content {
+#bazan-content {
   @include content;
   color: $green-sheen;
 }
