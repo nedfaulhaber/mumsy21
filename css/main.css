@@ -363,8 +363,8 @@ body {
       background-image: url("../img/bazan.png");
       background-position: center;
       background-size: cover; }
-    .gallery .row #max {
-      background-image: url("../img/max.png");
+    .gallery .row #bjork {
+      background-image: url("../img/bjork_olympics.png");
       background-position: center;
       background-size: cover; }
 
@@ -2249,10 +2249,10 @@ body {
     #bazan-content {
       margin: 0 1.5em 0 1.5em; } }
 
-#rush2-wrapper {
-  background-color: black; }
+#bjork-wrapper {
+  background-color: #0C120C; }
 
-#rush2-mobile-nav {
+#bjork-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -2262,26 +2262,26 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
-  background-color: #C5C5C5; }
-  #rush2-mobile-nav a {
+  background-color: #F5F0FB; }
+  #bjork-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Obibee Sans', cursive; }
-  #rush2-mobile-nav .sidenav .closebtn {
+  #bjork-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #rush2-mobile-nav .closebtn {
+  #bjork-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #rush2-mobile-nav a {
-    color: black; }
+  #bjork-mobile-nav a {
+    color: #0C120C; }
 
-#rush2-nav {
+#bjork-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2289,93 +2289,93 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: black; }
-  #rush2-nav a {
+  background-color: #0C120C; }
+  #bjork-nav a {
     font-family: 'Dosis', sans-serif;
     letter-spacing: .1em;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #rush2-nav {
+    #bjork-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #rush2-nav a {
-    color: #C5C5C5; }
-    #rush2-nav a:hover {
-      color: black; }
+  #bjork-nav a {
+    color: #F5F0FB; }
+    #bjork-nav a:hover {
+      color: #0C120C; }
 
-#rush2-header {
+#bjork-header {
   margin: 3.5em 2em 3em 3em;
-  color: #C5C5C5; }
+  color: #F5F0FB; }
   @media screen and (max-width: 600px) {
-    #rush2-header {
+    #bjork-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #rush2-header {
+    #bjork-header {
       margin-top: 0; } }
-  #rush2-header h2 {
+  #bjork-header h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #rush2-header .song {
+  #bjork-header .song {
     font-family: 'Dosis', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #rush2-header .song span {
+    #bjork-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #rush2-header .song span em {
+      #bjork-header .song span em {
         font-style: italic; }
-  #rush2-header .hamburger {
+  #bjork-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #rush2-header .hamburger {
+      #bjork-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
 
-#rush2-content {
+#bjork-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #C5C5C5; }
-  #rush2-content img {
+  color: #F5F0FB; }
+  #bjork-content img {
     height: auto;
     width: 35vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #rush2-content img {
+      #bjork-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #rush2-content img {
+      #bjork-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #rush2-content em {
+  #bjork-content em {
     font-style: italic; }
-  #rush2-content .info-link {
+  #bjork-content .info-link {
     text-decoration: none; }
-  #rush2-content a {
+  #bjork-content a {
     text-decoration: none;
     color: inherit; }
   @media screen and (max-width: 600px) {
-    #rush2-content {
+    #bjork-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #rush2-content {
+    #bjork-content {
       margin: 0 1.5em 0 1.5em; } }
 
 /*# sourceMappingURL=main.css.map */

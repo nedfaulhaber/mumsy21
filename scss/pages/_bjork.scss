@@ -1,0 +1,32 @@
+#bjork-wrapper {
+  background-color: #0C120C;
+}
+
+#bjork-mobile-nav {
+  @include mobilenav;
+  background-color: #F5F0FB;
+  a {
+    color: #0C120C;
+  }
+}
+
+#bjork-nav {
+  @include nav;
+  background-color: #0C120C;
+  a {
+    color: #F5F0FB;
+    &:hover {
+      color: #0C120C;
+    }
+  }
+}
+
+#bjork-header {
+  @include artist-header;
+  color: #F5F0FB;
+}
+
+#bjork-content {
+  @include content;
+  color: #F5F0FB;
+}
