@@ -115,7 +115,7 @@ body {
         padding: 0 3em 2em 0;
         font-family: 'Dosis', sans-serif;
         font-weight: 300;
-        text-shadow: 0 0 1px black;
+        text-shadow: 0 0 2px black;
         color: white;
 
         @media screen and (min-width: 1030px) {
@@ -161,27 +161,25 @@ body {
       background-image: url('../img/高橋國光.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 0%;
+      }
     }
     #oklou {
       background-image: url('../img/oklou_nails.png');
       background-position: 0% 0%;
       background-size: cover;
-    //   @media screen and (max-width: 1029px) {
-    //     p {
-    //       text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
-    //     }
-    //   }
-    //   @media screen and (max-width: 525px) {
-    //     background-position: 0% 8%;
-    //   }
+      @media screen and (max-width: 525px) {
+        background-position: 0% 50%;
+      }
     }
     #moses {
       background-image: url('../img/moses_stairs.png');
       background-position: center;
       background-size: cover;
-    //   @media screen and (max-width: 525px) {
-    //     background-position: 0% 25%;
-    //   }
+      @media screen and (max-width: 525px) {
+        background-position: 0% 10%;
+      }
     }
     #chloe {
       background-image: url('../img/chloe.png');
@@ -192,9 +190,9 @@ body {
     //       text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
     //     }
     //   }
-    //   @media screen and (max-width: 525px) {
-    //     background-position: 10% 0%;
-    //   }
+      @media screen and (max-width: 525px) {
+        background-position: 0% 20%;
+      }
     }
     #animals {
       background-image: url('../img/animals-as-leaders.png');
@@ -216,9 +214,9 @@ body {
     //       text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
     //     }
     //   }
-    //   @media screen and (max-width: 525px) {
-    //     background-position: 0% 20%;
-    //   }
+      @media screen and (max-width: 525px) {
+        background-position: 0% 0%;
+      }
     }
     #number1 {
       background-image: url('../img/number1popstar.png');
@@ -229,9 +227,9 @@ body {
     // //       text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
     // //     }
     // //   }
-    // //   @media screen and (max-width: 525px) {
-    // //     background-position: 0% 10%;
-    // //   }
+      @media screen and (max-width: 525px) {
+        background-position: 0% 10%;
+      }
     }
     #lajoaqui {
       background-image: url('../img/la-joaqui-lgante.png');

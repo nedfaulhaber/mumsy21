@@ -24,6 +24,9 @@
 #chloe-header {
   @include artist-header;
   color: $anti-flash-white;
+  #what {
+    @include long-song;
+  }
 }
 
 #chloe-content {

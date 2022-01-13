@@ -23,6 +23,9 @@
 
 #hania-header {
   @include artist-header;
+  @media only screen and (max-width: 625px) {
+      text-align: center;
+  }
   color: #C8BFC2;
 }
 

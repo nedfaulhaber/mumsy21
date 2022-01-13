@@ -24,6 +24,9 @@
 #golden-header {
   @include artist-header;
   color: #CDCDCD;
+  @media only screen and (max-width: 625px) {
+      text-align: center;
+  }
 }
 
 #golden-content {

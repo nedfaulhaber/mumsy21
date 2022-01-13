@@ -23,6 +23,9 @@
 
 #moses-header {
   @include artist-header;
+  @media only screen and (max-width: 625px) {
+      text-align: center;
+  }
   color: #4D7C8A;
 }
 

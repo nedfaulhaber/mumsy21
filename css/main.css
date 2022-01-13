@@ -279,7 +279,7 @@ body {
         padding: 0 3em 2em 0;
         font-family: 'Dosis', sans-serif;
         font-weight: 300;
-        text-shadow: 0 0 1px black;
+        text-shadow: 0 0 2px black;
         color: white; }
         @media screen and (min-width: 1030px) {
           .gallery .row .image p {
@@ -316,17 +316,29 @@ body {
       background-image: url("../img/高橋國光.png");
       background-position: center;
       background-size: cover; }
+      @media screen and (max-width: 525px) {
+        .gallery .row #osterreich {
+          background-position: 0% 0%; } }
     .gallery .row #oklou {
       background-image: url("../img/oklou_nails.png");
       background-position: 0% 0%;
       background-size: cover; }
+      @media screen and (max-width: 525px) {
+        .gallery .row #oklou {
+          background-position: 0% 50%; } }
     .gallery .row #moses {
       background-image: url("../img/moses_stairs.png");
       background-position: center;
       background-size: cover; }
+      @media screen and (max-width: 525px) {
+        .gallery .row #moses {
+          background-position: 0% 10%; } }
     .gallery .row #chloe {
       background-image: url("../img/chloe.png");
       background-size: cover; }
+      @media screen and (max-width: 525px) {
+        .gallery .row #chloe {
+          background-position: 0% 20%; } }
     .gallery .row #animals {
       background-image: url("../img/animals-as-leaders.png");
       background-position: 35% 0%;
@@ -335,10 +347,16 @@ body {
       background-image: url("../img/porches.png");
       background-position: center;
       background-size: cover; }
+      @media screen and (max-width: 525px) {
+        .gallery .row #porches {
+          background-position: 0% 0%; } }
     .gallery .row #number1 {
       background-image: url("../img/number1popstar.png");
       background-position: center;
       background-size: cover; }
+      @media screen and (max-width: 525px) {
+        .gallery .row #number1 {
+          background-position: 0% 10%; } }
     .gallery .row #lajoaqui {
       background-image: url("../img/la-joaqui-lgante.png");
       background-position: center;
@@ -460,6 +478,9 @@ body {
         display: none;
         height: 0;
         width: 0; } }
+  @media only screen and (max-width: 625px) {
+    #hania-header {
+      text-align: center; } }
 
 #hania-content {
   height: auto;
@@ -863,6 +884,9 @@ body {
         display: none;
         height: 0;
         width: 0; } }
+  @media only screen and (max-width: 625px) {
+    #moses-header {
+      text-align: center; } }
 
 #moses-content {
   height: auto;
@@ -1009,6 +1033,15 @@ body {
         display: none;
         height: 0;
         width: 0; } }
+  #chloe-header #what {
+    line-height: 1.2em; }
+    @media screen and (max-width: 850px) {
+      #chloe-header #what {
+        margin-right: 2em; } }
+    @media screen and (max-width: 600px) {
+      #chloe-header #what {
+        text-align: center;
+        margin: 0 2em 0; } }
 
 #chloe-content {
   height: auto;
@@ -1679,6 +1712,9 @@ body {
         display: none;
         height: 0;
         width: 0; } }
+  @media only screen and (max-width: 625px) {
+    #golden-header {
+      text-align: center; } }
 
 #golden-content {
   height: auto;
@@ -1937,6 +1973,9 @@ body {
         display: none;
         height: 0;
         width: 0; } }
+  @media only screen and (max-width: 625px) {
+    #terje-header {
+      text-align: center; } }
 
 #terje-content {
   height: auto;
@@ -2212,6 +2251,15 @@ body {
         display: none;
         height: 0;
         width: 0; } }
+  #bazan-header #wolves {
+    line-height: 1.2em; }
+    @media screen and (max-width: 850px) {
+      #bazan-header #wolves {
+        margin-right: 2em; } }
+    @media screen and (max-width: 600px) {
+      #bazan-header #wolves {
+        text-align: center;
+        margin: 0 2em 0; } }
 
 #bazan-content {
   height: auto;

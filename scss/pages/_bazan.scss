@@ -24,6 +24,9 @@
 #bazan-header {
   @include artist-header;
   color: $green-sheen;
+  #wolves {
+    @include long-song;
+  }
 }
 
 #bazan-content {
