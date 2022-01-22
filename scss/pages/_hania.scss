@@ -4,9 +4,9 @@
 
 #hania-mobile-nav {
   @include mobilenav;
-  background-color: $lavender-blue;
+  background-color: #C8BFC2;
   a {
-    color: $dark-purple;
+    color: #333232;
   }
 }
 
@@ -35,6 +35,10 @@
   // padding-bottom: 10em;
   img {
     @include artist-img;
-    width: 45vw;
+    // width: 45vw;
+  }
+  #kornelia {
+    @include feat-artist;
+
   }
 }
