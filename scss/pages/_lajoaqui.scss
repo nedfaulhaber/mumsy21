@@ -29,9 +29,12 @@
 #lajoaqui-content {
   @include content;
   color: $honeydew;
+  img {
+    width: 30vw;
+  }
   #l-gante {
     @include feat-artist;
-    // width: 25vw;
+    width: 30vw;
     // @media screen and (max-width: 600px) {
     //   display: flex;
     //   margin: 2em 0 2em;

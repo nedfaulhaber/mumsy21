@@ -1627,11 +1627,14 @@ body {
   @media screen and (max-width: 435px) {
     #lajoaqui-content {
       margin: 0 1.5em 0 1.5em; } }
+  #lajoaqui-content img {
+    width: 30vw; }
   #lajoaqui-content #l-gante {
     height: auto;
     width: 25vw;
     float: right;
-    margin: .5em 0 .6em 1.2em; }
+    margin: .5em 0 .6em 1.2em;
+    width: 30vw; }
     @media screen and (max-width: 600px) {
       #lajoaqui-content #l-gante {
         margin-left: 0; } }
