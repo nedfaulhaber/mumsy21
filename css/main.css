@@ -1628,7 +1628,18 @@ body {
     #lajoaqui-content {
       margin: 0 1.5em 0 1.5em; } }
   #lajoaqui-content img {
-    width: 30vw; }
+    width: 30vw;
+    float: left;
+    margin: 0 1.5em .5em 0; }
+    @media screen and (max-width: 1024px) {
+      #lajoaqui-content img {
+        width: 40vw; } }
+    @media screen and (max-width: 600px) {
+      #lajoaqui-content img {
+        display: flex;
+        margin: 0 0 2em;
+        width: 100%;
+        float: none; } }
   #lajoaqui-content #l-gante {
     height: auto;
     width: 25vw;
@@ -1641,6 +1652,15 @@ body {
     @media screen and (max-width: 1024px) {
       #lajoaqui-content #l-gante {
         width: 35vw; } }
+    @media screen and (max-width: 600px) {
+      #lajoaqui-content #l-gante {
+        display: flex;
+        margin: 2em 0 2em;
+        width: 100%;
+        float: none; } }
+    @media screen and (max-width: 1024px) {
+      #lajoaqui-content #l-gante {
+        width: 45vw; } }
     @media screen and (max-width: 600px) {
       #lajoaqui-content #l-gante {
         display: flex;
