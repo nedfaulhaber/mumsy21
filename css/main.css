@@ -533,6 +533,10 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #hania-content a {
+    color: #087E8B; }
+    #hania-content a:hover {
+      color: black; }
   #hania-content #kornelia {
     height: auto;
     width: 25vw;

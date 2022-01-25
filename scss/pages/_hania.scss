@@ -37,6 +37,12 @@
     @include artist-img;
     // width: 45vw;
   }
+  a {
+    color: #087E8B;
+    &:hover {
+      color: black;
+    }
+  }
   #kornelia {
     @include feat-artist;
 
