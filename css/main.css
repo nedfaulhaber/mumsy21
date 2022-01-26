@@ -534,7 +534,7 @@ body {
         width: 100%;
         float: none; } }
   #hania-content a {
-    color: #087E8B; }
+    color: #F8D770; }
     #hania-content a:hover {
       color: black; }
   #hania-content #kornelia {
@@ -814,6 +814,10 @@ body {
   @media screen and (max-width: 435px) {
     #oklou-content {
       margin: 0 1.5em 0 1.5em; } }
+  #oklou-content a {
+    color: white; }
+    #oklou-content a:hover {
+      color: black; }
 
 #moses-wrapper {
   background-color: black; }

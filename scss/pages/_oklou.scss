@@ -29,4 +29,10 @@
 #oklou-content {
   @include content;
   color: #DD403A;
+  a {
+    color: white;
+    &:hover {
+      color: black;
+    }
+  }
 }
