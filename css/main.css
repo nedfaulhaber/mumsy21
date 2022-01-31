@@ -1652,6 +1652,10 @@ body {
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
+  #lajoaqui-content a {
+    color: #748CAB; }
+    #lajoaqui-content a:hover {
+      color: black; }
   #lajoaqui-content #l-gante {
     height: auto;
     width: 25vw;
