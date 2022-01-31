@@ -35,4 +35,10 @@
   .ferry {
   @include feat-artist;
   }
+  a {
+    color: white;
+    &:hover {
+      color: black;
+    }
+  }
 }

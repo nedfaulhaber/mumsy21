@@ -2100,6 +2100,10 @@ body {
         margin: 2em 0 2em;
         width: 100%;
         float: none; } }
+  #terje-content a {
+    color: white; }
+    #terje-content a:hover {
+      color: black; }
 
 #mingus-wrapper {
   background-color: #A0A0A0; }
