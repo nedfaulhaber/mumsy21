@@ -1816,6 +1816,10 @@ body {
   @media screen and (max-width: 435px) {
     #golden-content {
       margin: 0 1.5em 0 1.5em; } }
+  #golden-content a {
+    color: #CFF27E; }
+    #golden-content a:hover {
+      color: black; }
 
 #remi-wrapper {
   background-color: #3D5A80; }

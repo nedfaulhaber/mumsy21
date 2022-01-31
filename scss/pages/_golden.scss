@@ -32,4 +32,10 @@
 #golden-content {
   @include content;
   color: #CDCDCD;
+  a {
+    color: #CFF27E;
+    &:hover {
+      color: black;
+    }
+  }
 }
