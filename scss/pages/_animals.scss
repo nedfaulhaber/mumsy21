@@ -29,4 +29,10 @@
 #animals-content {
   @include content;
   color: #88A09E;
+  a {
+    color: pink;
+    &:hover {
+      color: black;
+    }
+  }
 }

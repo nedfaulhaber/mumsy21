@@ -1241,6 +1241,10 @@ body {
   @media screen and (max-width: 435px) {
     #animals-content {
       margin: 0 1.5em 0 1.5em; } }
+  #animals-content a {
+    color: pink; }
+    #animals-content a:hover {
+      color: black; }
 
 #porches-wrapper {
   background-color: #423E37; }
