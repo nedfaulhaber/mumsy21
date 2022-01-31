@@ -2377,6 +2377,10 @@ body {
   @media screen and (max-width: 435px) {
     #bazan-content {
       margin: 0 1.5em 0 1.5em; } }
+  #bazan-content a {
+    color: white; }
+    #bazan-content a:hover {
+      color: black; }
 
 #bjork-wrapper {
   background-color: #0C120C; }

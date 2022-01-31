@@ -32,4 +32,10 @@
 #bazan-content {
   @include content;
   color: $green-sheen;
+  a {
+    color: white;
+    &:hover {
+      color: black;
+    }
+  }
 }
