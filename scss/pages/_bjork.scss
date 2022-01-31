@@ -29,4 +29,10 @@
 #bjork-content {
   @include content;
   color: #F5F0FB;
+  a {
+    color: #EC0305;
+    &:hover {
+      color: #565264;
+    }
+  }
 }

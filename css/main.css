@@ -2511,5 +2511,9 @@ body {
   @media screen and (max-width: 435px) {
     #bjork-content {
       margin: 0 1.5em 0 1.5em; } }
+  #bjork-content a {
+    color: #EC0305; }
+    #bjork-content a:hover {
+      color: #565264; }
 
 /*# sourceMappingURL=main.css.map */
