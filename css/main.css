@@ -2234,6 +2234,10 @@ body {
   @media screen and (max-width: 435px) {
     #mingus-content {
       margin: 0 1.5em 0 1.5em; } }
+  #mingus-content a {
+    color: #6665DD; }
+    #mingus-content a:hover {
+      color: black; }
 
 #bazan-wrapper {
   background-color: #3C1518; }

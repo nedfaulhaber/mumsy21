@@ -32,4 +32,10 @@
 #mingus-content {
   @include content;
   color: #4F000B;
+  a {
+    color: #6665DD;
+    &:hover {
+      color: black;
+    }
+  }
 }
